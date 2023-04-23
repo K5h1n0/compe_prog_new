@@ -1,0 +1,32 @@
+[config]
+buildcmd = ''
+filename = 'main.py'
+lang = '4047'
+runcmd = 'python3 {{ .file }}'
+
+[contest]
+name = 'aising2019'
+url = 'https://atcoder.jp/contests/aising2019?lang=ja'
+
+[tasks]
+[tasks.a]
+id = 'aising2019_a'
+path = '/home/kshino/workspace/compe_prog_new/other/aising2019/a/main.py'
+
+[tasks.b]
+id = 'aising2019_b'
+path = '/home/kshino/workspace/compe_prog_new/other/aising2019/b/main.py'
+
+[tasks.c]
+id = 'aising2019_c'
+path = '/home/kshino/workspace/compe_prog_new/other/aising2019/c/main.py'
+
+[tasks.d]
+id = 'aising2019_d'
+path = '/home/kshino/workspace/compe_prog_new/other/aising2019/d/main.py'
+
+[tasks.e]
+id = 'aising2019_e'
+path = '/home/kshino/workspace/compe_prog_new/other/aising2019/e/main.py'
+
+

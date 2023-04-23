@@ -1,0 +1,616 @@
+[config]
+buildcmd = ''
+filename = 'main.py'
+lang = '4006'
+runcmd = 'python3 {{ .file }}'
+
+[contest]
+name = 'tessoku-book'
+url = 'https://atcoder.jp/contests/tessoku-book?lang=ja'
+
+[tasks]
+[tasks.a01]
+id = 'tessoku_book_a'
+path = '/home/kshino/workspace/compe_prog_new/tessoku-book/a01/main.py'
+
+[tasks.a02]
+id = 'tessoku_book_b'
+path = '/home/kshino/workspace/compe_prog_new/tessoku-book/a02/main.py'
+
+[tasks.a03]
+id = 'tessoku_book_c'
+path = '/home/kshino/workspace/compe_prog_new/tessoku-book/a03/main.py'
+
+[tasks.a04]
+id = 'tessoku_book_d'
+path = '/home/kshino/workspace/compe_prog_new/tessoku-book/a04/main.py'
+
+[tasks.a05]
+id = 'tessoku_book_e'
+path = '/home/kshino/workspace/compe_prog_new/tessoku-book/a05/main.py'
+
+[tasks.a06]
+id = 'math_and_algorithm_ai'
+path = '/home/kshino/workspace/compe_prog_new/tessoku-book/a06/main.py'
+
+[tasks.a07]
+id = 'tessoku_book_g'
+path = '/home/kshino/workspace/compe_prog_new/tessoku-book/a07/main.py'
+
+[tasks.a08]
+id = 'tessoku_book_h'
+path = '/home/kshino/workspace/compe_prog_new/tessoku-book/a08/main.py'
+
+[tasks.a09]
+id = 'tessoku_book_i'
+path = '/home/kshino/workspace/compe_prog_new/tessoku-book/a09/main.py'
+
+[tasks.a10]
+id = 'tessoku_book_j'
+path = '/home/kshino/workspace/compe_prog_new/tessoku-book/a10/main.py'
+
+[tasks.a11]
+id = 'tessoku_book_k'
+path = '/home/kshino/workspace/compe_prog_new/tessoku-book/a11/main.py'
+
+[tasks.a12]
+id = 'tessoku_book_l'
+path = '/home/kshino/workspace/compe_prog_new/tessoku-book/a12/main.py'
+
+[tasks.a13]
+id = 'tessoku_book_m'
+path = '/home/kshino/workspace/compe_prog_new/tessoku-book/a13/main.py'
+
+[tasks.a14]
+id = 'tessoku_book_n'
+path = '/home/kshino/workspace/compe_prog_new/tessoku-book/a14/main.py'
+
+[tasks.a15]
+id = 'tessoku_book_o'
+path = '/home/kshino/workspace/compe_prog_new/tessoku-book/a15/main.py'
+
+[tasks.a16]
+id = 'tessoku_book_p'
+path = '/home/kshino/workspace/compe_prog_new/tessoku-book/a16/main.py'
+
+[tasks.a17]
+id = 'tessoku_book_q'
+path = '/home/kshino/workspace/compe_prog_new/tessoku-book/a17/main.py'
+
+[tasks.a18]
+id = 'tessoku_book_r'
+path = '/home/kshino/workspace/compe_prog_new/tessoku-book/a18/main.py'
+
+[tasks.a19]
+id = 'tessoku_book_s'
+path = '/home/kshino/workspace/compe_prog_new/tessoku-book/a19/main.py'
+
+[tasks.a20]
+id = 'tessoku_book_t'
+path = '/home/kshino/workspace/compe_prog_new/tessoku-book/a20/main.py'
+
+[tasks.a21]
+id = 'tessoku_book_u'
+path = '/home/kshino/workspace/compe_prog_new/tessoku-book/a21/main.py'
+
+[tasks.a22]
+id = 'tessoku_book_v'
+path = '/home/kshino/workspace/compe_prog_new/tessoku-book/a22/main.py'
+
+[tasks.a23]
+id = 'tessoku_book_w'
+path = '/home/kshino/workspace/compe_prog_new/tessoku-book/a23/main.py'
+
+[tasks.a24]
+id = 'tessoku_book_x'
+path = '/home/kshino/workspace/compe_prog_new/tessoku-book/a24/main.py'
+
+[tasks.a25]
+id = 'tessoku_book_y'
+path = '/home/kshino/workspace/compe_prog_new/tessoku-book/a25/main.py'
+
+[tasks.a26]
+id = 'tessoku_book_z'
+path = '/home/kshino/workspace/compe_prog_new/tessoku-book/a26/main.py'
+
+[tasks.a27]
+id = 'math_and_algorithm_o'
+path = '/home/kshino/workspace/compe_prog_new/tessoku-book/a27/main.py'
+
+[tasks.a28]
+id = 'tessoku_book_ab'
+path = '/home/kshino/workspace/compe_prog_new/tessoku-book/a28/main.py'
+
+[tasks.a29]
+id = 'math_and_algorithm_aq'
+path = '/home/kshino/workspace/compe_prog_new/tessoku-book/a29/main.py'
+
+[tasks.a30]
+id = 'tessoku_book_ad'
+path = '/home/kshino/workspace/compe_prog_new/tessoku-book/a30/main.py'
+
+[tasks.a31]
+id = 'tessoku_book_ae'
+path = '/home/kshino/workspace/compe_prog_new/tessoku-book/a31/main.py'
+
+[tasks.a32]
+id = 'tessoku_book_af'
+path = '/home/kshino/workspace/compe_prog_new/tessoku-book/a32/main.py'
+
+[tasks.a33]
+id = 'tessoku_book_ag'
+path = '/home/kshino/workspace/compe_prog_new/tessoku-book/a33/main.py'
+
+[tasks.a34]
+id = 'tessoku_book_ah'
+path = '/home/kshino/workspace/compe_prog_new/tessoku-book/a34/main.py'
+
+[tasks.a35]
+id = 'tessoku_book_ai'
+path = '/home/kshino/workspace/compe_prog_new/tessoku-book/a35/main.py'
+
+[tasks.a36]
+id = 'tessoku_book_aj'
+path = '/home/kshino/workspace/compe_prog_new/tessoku-book/a36/main.py'
+
+[tasks.a37]
+id = 'tessoku_book_ak'
+path = '/home/kshino/workspace/compe_prog_new/tessoku-book/a37/main.py'
+
+[tasks.a38]
+id = 'tessoku_book_al'
+path = '/home/kshino/workspace/compe_prog_new/tessoku-book/a38/main.py'
+
+[tasks.a39]
+id = 'math_and_algorithm_bn'
+path = '/home/kshino/workspace/compe_prog_new/tessoku-book/a39/main.py'
+
+[tasks.a40]
+id = 'tessoku_book_an'
+path = '/home/kshino/workspace/compe_prog_new/tessoku-book/a40/main.py'
+
+[tasks.a41]
+id = 'tessoku_book_ao'
+path = '/home/kshino/workspace/compe_prog_new/tessoku-book/a41/main.py'
+
+[tasks.a42]
+id = 'tessoku_book_ap'
+path = '/home/kshino/workspace/compe_prog_new/tessoku-book/a42/main.py'
+
+[tasks.a43]
+id = 'tessoku_book_aq'
+path = '/home/kshino/workspace/compe_prog_new/tessoku-book/a43/main.py'
+
+[tasks.a44]
+id = 'tessoku_book_ar'
+path = '/home/kshino/workspace/compe_prog_new/tessoku-book/a44/main.py'
+
+[tasks.a45]
+id = 'tessoku_book_as'
+path = '/home/kshino/workspace/compe_prog_new/tessoku-book/a45/main.py'
+
+[tasks.a46]
+id = 'tessoku_book_at'
+path = '/home/kshino/workspace/compe_prog_new/tessoku-book/a46/main.py'
+
+[tasks.a49]
+id = 'tessoku_book_aw'
+path = '/home/kshino/workspace/compe_prog_new/tessoku-book/a49/main.py'
+
+[tasks.a50]
+id = 'future_contest_2018_qual_a'
+path = '/home/kshino/workspace/compe_prog_new/tessoku-book/a50/main.py'
+
+[tasks.a51]
+id = 'tessoku_book_ay'
+path = '/home/kshino/workspace/compe_prog_new/tessoku-book/a51/main.py'
+
+[tasks.a52]
+id = 'tessoku_book_az'
+path = '/home/kshino/workspace/compe_prog_new/tessoku-book/a52/main.py'
+
+[tasks.a53]
+id = 'tessoku_book_ba'
+path = '/home/kshino/workspace/compe_prog_new/tessoku-book/a53/main.py'
+
+[tasks.a54]
+id = 'tessoku_book_bb'
+path = '/home/kshino/workspace/compe_prog_new/tessoku-book/a54/main.py'
+
+[tasks.a55]
+id = 'tessoku_book_bc'
+path = '/home/kshino/workspace/compe_prog_new/tessoku-book/a55/main.py'
+
+[tasks.a56]
+id = 'tessoku_book_bd'
+path = '/home/kshino/workspace/compe_prog_new/tessoku-book/a56/main.py'
+
+[tasks.a57]
+id = 'tessoku_book_be'
+path = '/home/kshino/workspace/compe_prog_new/tessoku-book/a57/main.py'
+
+[tasks.a58]
+id = 'tessoku_book_bf'
+path = '/home/kshino/workspace/compe_prog_new/tessoku-book/a58/main.py'
+
+[tasks.a59]
+id = 'tessoku_book_bg'
+path = '/home/kshino/workspace/compe_prog_new/tessoku-book/a59/main.py'
+
+[tasks.a60]
+id = 'tessoku_book_bh'
+path = '/home/kshino/workspace/compe_prog_new/tessoku-book/a60/main.py'
+
+[tasks.a61]
+id = 'tessoku_book_bi'
+path = '/home/kshino/workspace/compe_prog_new/tessoku-book/a61/main.py'
+
+[tasks.a62]
+id = 'math_and_algorithm_am'
+path = '/home/kshino/workspace/compe_prog_new/tessoku-book/a62/main.py'
+
+[tasks.a63]
+id = 'math_and_algorithm_an'
+path = '/home/kshino/workspace/compe_prog_new/tessoku-book/a63/main.py'
+
+[tasks.a64]
+id = 'tessoku_book_bl'
+path = '/home/kshino/workspace/compe_prog_new/tessoku-book/a64/main.py'
+
+[tasks.a65]
+id = 'tessoku_book_bm'
+path = '/home/kshino/workspace/compe_prog_new/tessoku-book/a65/main.py'
+
+[tasks.a66]
+id = 'tessoku_book_bn'
+path = '/home/kshino/workspace/compe_prog_new/tessoku-book/a66/main.py'
+
+[tasks.a67]
+id = 'tessoku_book_bo'
+path = '/home/kshino/workspace/compe_prog_new/tessoku-book/a67/main.py'
+
+[tasks.a68]
+id = 'tessoku_book_bp'
+path = '/home/kshino/workspace/compe_prog_new/tessoku-book/a68/main.py'
+
+[tasks.a69]
+id = 'tessoku_book_bq'
+path = '/home/kshino/workspace/compe_prog_new/tessoku-book/a69/main.py'
+
+[tasks.a70]
+id = 'tessoku_book_br'
+path = '/home/kshino/workspace/compe_prog_new/tessoku-book/a70/main.py'
+
+[tasks.a71]
+id = 'tessoku_book_bs'
+path = '/home/kshino/workspace/compe_prog_new/tessoku-book/a71/main.py'
+
+[tasks.a72]
+id = 'tessoku_book_bt'
+path = '/home/kshino/workspace/compe_prog_new/tessoku-book/a72/main.py'
+
+[tasks.a73]
+id = 'tessoku_book_bu'
+path = '/home/kshino/workspace/compe_prog_new/tessoku-book/a73/main.py'
+
+[tasks.a74]
+id = 'tessoku_book_bv'
+path = '/home/kshino/workspace/compe_prog_new/tessoku-book/a74/main.py'
+
+[tasks.a75]
+id = 'tessoku_book_bw'
+path = '/home/kshino/workspace/compe_prog_new/tessoku-book/a75/main.py'
+
+[tasks.a76]
+id = 'tessoku_book_bx'
+path = '/home/kshino/workspace/compe_prog_new/tessoku-book/a76/main.py'
+
+[tasks.a77]
+id = 'typical90_a'
+path = '/home/kshino/workspace/compe_prog_new/tessoku-book/a77/main.py'
+
+[tasks.b01]
+id = 'tessoku_book_bz'
+path = '/home/kshino/workspace/compe_prog_new/tessoku-book/b01/main.py'
+
+[tasks.b02]
+id = 'tessoku_book_ca'
+path = '/home/kshino/workspace/compe_prog_new/tessoku-book/b02/main.py'
+
+[tasks.b03]
+id = 'tessoku_book_cb'
+path = '/home/kshino/workspace/compe_prog_new/tessoku-book/b03/main.py'
+
+[tasks.b04]
+id = 'tessoku_book_cc'
+path = '/home/kshino/workspace/compe_prog_new/tessoku-book/b04/main.py'
+
+[tasks.b06]
+id = 'tessoku_book_ce'
+path = '/home/kshino/workspace/compe_prog_new/tessoku-book/b06/main.py'
+
+[tasks.b07]
+id = 'math_and_algorithm_al'
+path = '/home/kshino/workspace/compe_prog_new/tessoku-book/b07/main.py'
+
+[tasks.b08]
+id = 'tessoku_book_cg'
+path = '/home/kshino/workspace/compe_prog_new/tessoku-book/b08/main.py'
+
+[tasks.b09]
+id = 'tessoku_book_ch'
+path = '/home/kshino/workspace/compe_prog_new/tessoku-book/b09/main.py'
+
+[tasks.b11]
+id = 'tessoku_book_cj'
+path = '/home/kshino/workspace/compe_prog_new/tessoku-book/b11/main.py'
+
+[tasks.b12]
+id = 'tessoku_book_ck'
+path = '/home/kshino/workspace/compe_prog_new/tessoku-book/b12/main.py'
+
+[tasks.b13]
+id = 'tessoku_book_cl'
+path = '/home/kshino/workspace/compe_prog_new/tessoku-book/b13/main.py'
+
+[tasks.b14]
+id = 'tessoku_book_cm'
+path = '/home/kshino/workspace/compe_prog_new/tessoku-book/b14/main.py'
+
+[tasks.b16]
+id = 'dp_a'
+path = '/home/kshino/workspace/compe_prog_new/tessoku-book/b16/main.py'
+
+[tasks.b17]
+id = 'tessoku_book_cp'
+path = '/home/kshino/workspace/compe_prog_new/tessoku-book/b17/main.py'
+
+[tasks.b18]
+id = 'tessoku_book_cq'
+path = '/home/kshino/workspace/compe_prog_new/tessoku-book/b18/main.py'
+
+[tasks.b19]
+id = 'tessoku_book_cr'
+path = '/home/kshino/workspace/compe_prog_new/tessoku-book/b19/main.py'
+
+[tasks.b20]
+id = 'tessoku_book_cs'
+path = '/home/kshino/workspace/compe_prog_new/tessoku-book/b20/main.py'
+
+[tasks.b21]
+id = 'tessoku_book_ct'
+path = '/home/kshino/workspace/compe_prog_new/tessoku-book/b21/main.py'
+
+[tasks.b23]
+id = 'tessoku_book_cv'
+path = '/home/kshino/workspace/compe_prog_new/tessoku-book/b23/main.py'
+
+[tasks.b24]
+id = 'tessoku_book_cw'
+path = '/home/kshino/workspace/compe_prog_new/tessoku-book/b24/main.py'
+
+[tasks.b26]
+id = 'tessoku_book_cy'
+path = '/home/kshino/workspace/compe_prog_new/tessoku-book/b26/main.py'
+
+[tasks.b27]
+id = 'tessoku_book_cz'
+path = '/home/kshino/workspace/compe_prog_new/tessoku-book/b27/main.py'
+
+[tasks.b28]
+id = 'math_and_algorithm_ap'
+path = '/home/kshino/workspace/compe_prog_new/tessoku-book/b28/main.py'
+
+[tasks.b29]
+id = 'tessoku_book_db'
+path = '/home/kshino/workspace/compe_prog_new/tessoku-book/b29/main.py'
+
+[tasks.b30]
+id = 'tessoku_book_dc'
+path = '/home/kshino/workspace/compe_prog_new/tessoku-book/b30/main.py'
+
+[tasks.b31]
+id = 'tessoku_book_dd'
+path = '/home/kshino/workspace/compe_prog_new/tessoku-book/b31/main.py'
+
+[tasks.b32]
+id = 'tessoku_book_de'
+path = '/home/kshino/workspace/compe_prog_new/tessoku-book/b32/main.py'
+
+[tasks.b33]
+id = 'tessoku_book_df'
+path = '/home/kshino/workspace/compe_prog_new/tessoku-book/b33/main.py'
+
+[tasks.b34]
+id = 'tessoku_book_dg'
+path = '/home/kshino/workspace/compe_prog_new/tessoku-book/b34/main.py'
+
+[tasks.b36]
+id = 'tessoku_book_di'
+path = '/home/kshino/workspace/compe_prog_new/tessoku-book/b36/main.py'
+
+[tasks.b37]
+id = 'tessoku_book_dj'
+path = '/home/kshino/workspace/compe_prog_new/tessoku-book/b37/main.py'
+
+[tasks.b38]
+id = 'tessoku_book_dk'
+path = '/home/kshino/workspace/compe_prog_new/tessoku-book/b38/main.py'
+
+[tasks.b39]
+id = 'tessoku_book_dl'
+path = '/home/kshino/workspace/compe_prog_new/tessoku-book/b39/main.py'
+
+[tasks.b40]
+id = 'tessoku_book_dm'
+path = '/home/kshino/workspace/compe_prog_new/tessoku-book/b40/main.py'
+
+[tasks.b41]
+id = 'tessoku_book_dn'
+path = '/home/kshino/workspace/compe_prog_new/tessoku-book/b41/main.py'
+
+[tasks.b42]
+id = 'tessoku_book_do'
+path = '/home/kshino/workspace/compe_prog_new/tessoku-book/b42/main.py'
+
+[tasks.b43]
+id = 'tessoku_book_dp'
+path = '/home/kshino/workspace/compe_prog_new/tessoku-book/b43/main.py'
+
+[tasks.b44]
+id = 'tessoku_book_dq'
+path = '/home/kshino/workspace/compe_prog_new/tessoku-book/b44/main.py'
+
+[tasks.b45]
+id = 'tessoku_book_dr'
+path = '/home/kshino/workspace/compe_prog_new/tessoku-book/b45/main.py'
+
+[tasks.b51]
+id = 'tessoku_book_dx'
+path = '/home/kshino/workspace/compe_prog_new/tessoku-book/b51/main.py'
+
+[tasks.b52]
+id = 'tessoku_book_dy'
+path = '/home/kshino/workspace/compe_prog_new/tessoku-book/b52/main.py'
+
+[tasks.b54]
+id = 'tessoku_book_ea'
+path = '/home/kshino/workspace/compe_prog_new/tessoku-book/b54/main.py'
+
+[tasks.b55]
+id = 'tessoku_book_eb'
+path = '/home/kshino/workspace/compe_prog_new/tessoku-book/b55/main.py'
+
+[tasks.b56]
+id = 'tessoku_book_ec'
+path = '/home/kshino/workspace/compe_prog_new/tessoku-book/b56/main.py'
+
+[tasks.b57]
+id = 'tessoku_book_ed'
+path = '/home/kshino/workspace/compe_prog_new/tessoku-book/b57/main.py'
+
+[tasks.b58]
+id = 'tessoku_book_ee'
+path = '/home/kshino/workspace/compe_prog_new/tessoku-book/b58/main.py'
+
+[tasks.b59]
+id = 'tessoku_book_ef'
+path = '/home/kshino/workspace/compe_prog_new/tessoku-book/b59/main.py'
+
+[tasks.b61]
+id = 'tessoku_book_eh'
+path = '/home/kshino/workspace/compe_prog_new/tessoku-book/b61/main.py'
+
+[tasks.b62]
+id = 'tessoku_book_ei'
+path = '/home/kshino/workspace/compe_prog_new/tessoku-book/b62/main.py'
+
+[tasks.b63]
+id = 'abc007_3'
+path = '/home/kshino/workspace/compe_prog_new/tessoku-book/b63/main.py'
+
+[tasks.b64]
+id = 'tessoku_book_ek'
+path = '/home/kshino/workspace/compe_prog_new/tessoku-book/b64/main.py'
+
+[tasks.b65]
+id = 'tessoku_book_el'
+path = '/home/kshino/workspace/compe_prog_new/tessoku-book/b65/main.py'
+
+[tasks.b66]
+id = 'tessoku_book_em'
+path = '/home/kshino/workspace/compe_prog_new/tessoku-book/b66/main.py'
+
+[tasks.b67]
+id = 'tessoku_book_en'
+path = '/home/kshino/workspace/compe_prog_new/tessoku-book/b67/main.py'
+
+[tasks.b68]
+id = 'tessoku_book_eo'
+path = '/home/kshino/workspace/compe_prog_new/tessoku-book/b68/main.py'
+
+[tasks.b69]
+id = 'tessoku_book_ep'
+path = '/home/kshino/workspace/compe_prog_new/tessoku-book/b69/main.py'
+
+[tasks.c01]
+id = 'tessoku_book_ey'
+path = '/home/kshino/workspace/compe_prog_new/tessoku-book/c01/main.py'
+
+[tasks.c02]
+id = 'tessoku_book_ez'
+path = '/home/kshino/workspace/compe_prog_new/tessoku-book/c02/main.py'
+
+[tasks.c03]
+id = 'tessoku_book_fa'
+path = '/home/kshino/workspace/compe_prog_new/tessoku-book/c03/main.py'
+
+[tasks.c04]
+id = 'tessoku_book_fb'
+path = '/home/kshino/workspace/compe_prog_new/tessoku-book/c04/main.py'
+
+[tasks.c05]
+id = 'tessoku_book_fc'
+path = '/home/kshino/workspace/compe_prog_new/tessoku-book/c05/main.py'
+
+[tasks.c06]
+id = 'tessoku_book_fd'
+path = '/home/kshino/workspace/compe_prog_new/tessoku-book/c06/main.py'
+
+[tasks.c07]
+id = 'tessoku_book_fe'
+path = '/home/kshino/workspace/compe_prog_new/tessoku-book/c07/main.py'
+
+[tasks.c08]
+id = 'tessoku_book_ff'
+path = '/home/kshino/workspace/compe_prog_new/tessoku-book/c08/main.py'
+
+[tasks.c09]
+id = 'math_and_algorithm_ac'
+path = '/home/kshino/workspace/compe_prog_new/tessoku-book/c09/main.py'
+
+[tasks.c10]
+id = 'tessoku_book_fh'
+path = '/home/kshino/workspace/compe_prog_new/tessoku-book/c10/main.py'
+
+[tasks.c11]
+id = 'tessoku_book_fi'
+path = '/home/kshino/workspace/compe_prog_new/tessoku-book/c11/main.py'
+
+[tasks.c12]
+id = 'tessoku_book_fj'
+path = '/home/kshino/workspace/compe_prog_new/tessoku-book/c12/main.py'
+
+[tasks.c13]
+id = 'tessoku_book_fk'
+path = '/home/kshino/workspace/compe_prog_new/tessoku-book/c13/main.py'
+
+[tasks.c14]
+id = 'tessoku_book_fl'
+path = '/home/kshino/workspace/compe_prog_new/tessoku-book/c14/main.py'
+
+[tasks.c15]
+id = 'tessoku_book_fm'
+path = '/home/kshino/workspace/compe_prog_new/tessoku-book/c15/main.py'
+
+[tasks.c16]
+id = 'tessoku_book_fn'
+path = '/home/kshino/workspace/compe_prog_new/tessoku-book/c16/main.py'
+
+[tasks.c17]
+id = 'tessoku_book_fo'
+path = '/home/kshino/workspace/compe_prog_new/tessoku-book/c17/main.py'
+
+[tasks.c18]
+id = 'typical90_s'
+path = '/home/kshino/workspace/compe_prog_new/tessoku-book/c18/main.py'
+
+[tasks.c19]
+id = 'tessoku_book_fq'
+path = '/home/kshino/workspace/compe_prog_new/tessoku-book/c19/main.py'
+
+[tasks.c20]
+id = 'tessoku_book_fr'
+path = '/home/kshino/workspace/compe_prog_new/tessoku-book/c20/main.py'
+
+

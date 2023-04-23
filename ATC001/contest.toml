@@ -1,0 +1,24 @@
+[config]
+buildcmd = ''
+filename = 'main.py'
+lang = '4006'
+runcmd = 'python3 {{ .file }}'
+
+[contest]
+name = 'ATC001'
+url = 'https://atcoder.jp/contests/ATC001?lang=ja'
+
+[tasks]
+[tasks.a]
+id = 'dfs_a'
+path = '/home/kshino/workspace/compe_prog_new/ATC001/a/main.py'
+
+[tasks.b]
+id = 'unionfind_a'
+path = '/home/kshino/workspace/compe_prog_new/ATC001/b/main.py'
+
+[tasks.c]
+id = 'fft_c'
+path = '/home/kshino/workspace/compe_prog_new/ATC001/c/main.py'
+
+

@@ -1,0 +1,36 @@
+[config]
+buildcmd = ''
+filename = 'main.py'
+lang = '4047'
+runcmd = 'python3 {{ .file }}'
+
+[contest]
+name = 'sumitrust2019'
+url = 'https://atcoder.jp/contests/sumitrust2019?lang=ja'
+
+[tasks]
+[tasks.a]
+id = 'sumitb2019_a'
+path = '/home/kshino/workspace/compe_prog_new/other/sumitrust2019/a/main.py'
+
+[tasks.b]
+id = 'sumitb2019_b'
+path = '/home/kshino/workspace/compe_prog_new/other/sumitrust2019/b/main.py'
+
+[tasks.c]
+id = ''
+path = '/home/kshino/workspace/compe_prog_new/other/sumitrust2019/c/main.py'
+
+[tasks.d]
+id = ''
+path = '/home/kshino/workspace/compe_prog_new/other/sumitrust2019/d/main.py'
+
+[tasks.e]
+id = ''
+path = '/home/kshino/workspace/compe_prog_new/other/sumitrust2019/e/main.py'
+
+[tasks.f]
+id = ''
+path = '/home/kshino/workspace/compe_prog_new/other/sumitrust2019/f/main.py'
+
+

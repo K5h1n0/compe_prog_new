@@ -1,0 +1,36 @@
+[config]
+buildcmd = ''
+filename = 'main.py'
+lang = '4047'
+runcmd = 'python3 {{ .file }}'
+
+[contest]
+name = 'zone2021'
+url = 'https://atcoder.jp/contests/zone2021?lang=ja'
+
+[tasks]
+[tasks.a]
+id = 'zone2021_a'
+path = '/home/kshino/workspace/compe_prog_new/other/zone2021/a/main.py'
+
+[tasks.b]
+id = 'zone2021_b'
+path = '/home/kshino/workspace/compe_prog_new/other/zone2021/b/main.py'
+
+[tasks.c]
+id = 'zone2021_c'
+path = '/home/kshino/workspace/compe_prog_new/other/zone2021/c/main.py'
+
+[tasks.d]
+id = 'zone2021_d'
+path = '/home/kshino/workspace/compe_prog_new/other/zone2021/d/main.py'
+
+[tasks.e]
+id = 'zone2021_e'
+path = '/home/kshino/workspace/compe_prog_new/other/zone2021/e/main.py'
+
+[tasks.f]
+id = 'zone2021_f'
+path = '/home/kshino/workspace/compe_prog_new/other/zone2021/f/main.py'
+
+

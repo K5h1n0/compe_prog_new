@@ -1,0 +1,44 @@
+[config]
+buildcmd = ''
+filename = 'main.py'
+lang = '4006'
+runcmd = 'python3 {{ .file }}'
+
+[contest]
+name = 'ABC292'
+url = 'https://atcoder.jp/contests/ABC292?lang=ja'
+
+[tasks]
+[tasks.a]
+id = 'abc292_a'
+path = '/home/kshino/workspace/compe_prog_new/ABC292/a/main.py'
+
+[tasks.b]
+id = 'abc292_b'
+path = '/home/kshino/workspace/compe_prog_new/ABC292/b/main.py'
+
+[tasks.c]
+id = 'abc292_c'
+path = '/home/kshino/workspace/compe_prog_new/ABC292/c/main.py'
+
+[tasks.d]
+id = ''
+path = '/home/kshino/workspace/compe_prog_new/ABC292/d/main.py'
+
+[tasks.e]
+id = ''
+path = '/home/kshino/workspace/compe_prog_new/ABC292/e/main.py'
+
+[tasks.ex]
+id = ''
+path = '/home/kshino/workspace/compe_prog_new/ABC292/ex/main.py'
+
+[tasks.f]
+id = ''
+path = '/home/kshino/workspace/compe_prog_new/ABC292/f/main.py'
+
+[tasks.g]
+id = ''
+path = '/home/kshino/workspace/compe_prog_new/ABC292/g/main.py'
+
+

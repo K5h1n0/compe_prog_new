@@ -1,0 +1,372 @@
+[config]
+buildcmd = ''
+filename = 'main.py'
+lang = '4006'
+runcmd = 'python3 {{ .file }}'
+
+[contest]
+name = 'typical90'
+url = 'https://atcoder.jp/contests/typical90?lang=ja'
+
+[tasks]
+[tasks.001]
+id = 'typical90_a'
+path = '/home/kshino/workspace/compe_prog_new/typical90/001/main.py'
+
+[tasks.002]
+id = 'typical90_b'
+path = '/home/kshino/workspace/compe_prog_new/typical90/002/main.py'
+
+[tasks.003]
+id = 'typical90_c'
+path = '/home/kshino/workspace/compe_prog_new/typical90/003/main.py'
+
+[tasks.004]
+id = 'typical90_d'
+path = '/home/kshino/workspace/compe_prog_new/typical90/004/main.py'
+
+[tasks.005]
+id = 'typical90_e'
+path = '/home/kshino/workspace/compe_prog_new/typical90/005/main.py'
+
+[tasks.006]
+id = 'typical90_f'
+path = '/home/kshino/workspace/compe_prog_new/typical90/006/main.py'
+
+[tasks.007]
+id = 'typical90_g'
+path = '/home/kshino/workspace/compe_prog_new/typical90/007/main.py'
+
+[tasks.008]
+id = 'typical90_h'
+path = '/home/kshino/workspace/compe_prog_new/typical90/008/main.py'
+
+[tasks.009]
+id = 'typical90_i'
+path = '/home/kshino/workspace/compe_prog_new/typical90/009/main.py'
+
+[tasks.010]
+id = 'typical90_j'
+path = '/home/kshino/workspace/compe_prog_new/typical90/010/main.py'
+
+[tasks.011]
+id = 'typical90_k'
+path = '/home/kshino/workspace/compe_prog_new/typical90/011/main.py'
+
+[tasks.012]
+id = 'typical90_l'
+path = '/home/kshino/workspace/compe_prog_new/typical90/012/main.py'
+
+[tasks.013]
+id = 'typical90_m'
+path = '/home/kshino/workspace/compe_prog_new/typical90/013/main.py'
+
+[tasks.014]
+id = 'typical90_n'
+path = '/home/kshino/workspace/compe_prog_new/typical90/014/main.py'
+
+[tasks.015]
+id = 'typical90_o'
+path = '/home/kshino/workspace/compe_prog_new/typical90/015/main.py'
+
+[tasks.016]
+id = 'typical90_p'
+path = '/home/kshino/workspace/compe_prog_new/typical90/016/main.py'
+
+[tasks.017]
+id = 'typical90_q'
+path = '/home/kshino/workspace/compe_prog_new/typical90/017/main.py'
+
+[tasks.018]
+id = 'typical90_r'
+path = '/home/kshino/workspace/compe_prog_new/typical90/018/main.py'
+
+[tasks.019]
+id = 'typical90_s'
+path = '/home/kshino/workspace/compe_prog_new/typical90/019/main.py'
+
+[tasks.020]
+id = 'typical90_t'
+path = '/home/kshino/workspace/compe_prog_new/typical90/020/main.py'
+
+[tasks.021]
+id = 'typical90_u'
+path = '/home/kshino/workspace/compe_prog_new/typical90/021/main.py'
+
+[tasks.022]
+id = 'typical90_v'
+path = '/home/kshino/workspace/compe_prog_new/typical90/022/main.py'
+
+[tasks.023]
+id = 'typical90_w'
+path = '/home/kshino/workspace/compe_prog_new/typical90/023/main.py'
+
+[tasks.024]
+id = 'typical90_x'
+path = '/home/kshino/workspace/compe_prog_new/typical90/024/main.py'
+
+[tasks.025]
+id = 'typical90_y'
+path = '/home/kshino/workspace/compe_prog_new/typical90/025/main.py'
+
+[tasks.026]
+id = 'typical90_z'
+path = '/home/kshino/workspace/compe_prog_new/typical90/026/main.py'
+
+[tasks.027]
+id = 'typical90_aa'
+path = '/home/kshino/workspace/compe_prog_new/typical90/027/main.py'
+
+[tasks.028]
+id = 'typical90_ab'
+path = '/home/kshino/workspace/compe_prog_new/typical90/028/main.py'
+
+[tasks.029]
+id = 'typical90_ac'
+path = '/home/kshino/workspace/compe_prog_new/typical90/029/main.py'
+
+[tasks.030]
+id = 'typical90_ad'
+path = '/home/kshino/workspace/compe_prog_new/typical90/030/main.py'
+
+[tasks.031]
+id = 'typical90_ae'
+path = '/home/kshino/workspace/compe_prog_new/typical90/031/main.py'
+
+[tasks.032]
+id = 'typical90_af'
+path = '/home/kshino/workspace/compe_prog_new/typical90/032/main.py'
+
+[tasks.033]
+id = 'typical90_ag'
+path = '/home/kshino/workspace/compe_prog_new/typical90/033/main.py'
+
+[tasks.034]
+id = 'typical90_ah'
+path = '/home/kshino/workspace/compe_prog_new/typical90/034/main.py'
+
+[tasks.035]
+id = 'typical90_ai'
+path = '/home/kshino/workspace/compe_prog_new/typical90/035/main.py'
+
+[tasks.036]
+id = 'typical90_aj'
+path = '/home/kshino/workspace/compe_prog_new/typical90/036/main.py'
+
+[tasks.037]
+id = 'typical90_ak'
+path = '/home/kshino/workspace/compe_prog_new/typical90/037/main.py'
+
+[tasks.038]
+id = 'typical90_al'
+path = '/home/kshino/workspace/compe_prog_new/typical90/038/main.py'
+
+[tasks.039]
+id = 'typical90_am'
+path = '/home/kshino/workspace/compe_prog_new/typical90/039/main.py'
+
+[tasks.040]
+id = 'typical90_an'
+path = '/home/kshino/workspace/compe_prog_new/typical90/040/main.py'
+
+[tasks.041]
+id = 'typical90_ao'
+path = '/home/kshino/workspace/compe_prog_new/typical90/041/main.py'
+
+[tasks.042]
+id = 'typical90_ap'
+path = '/home/kshino/workspace/compe_prog_new/typical90/042/main.py'
+
+[tasks.043]
+id = 'typical90_aq'
+path = '/home/kshino/workspace/compe_prog_new/typical90/043/main.py'
+
+[tasks.044]
+id = 'typical90_ar'
+path = '/home/kshino/workspace/compe_prog_new/typical90/044/main.py'
+
+[tasks.045]
+id = 'typical90_as'
+path = '/home/kshino/workspace/compe_prog_new/typical90/045/main.py'
+
+[tasks.046]
+id = 'typical90_at'
+path = '/home/kshino/workspace/compe_prog_new/typical90/046/main.py'
+
+[tasks.047]
+id = 'typical90_au'
+path = '/home/kshino/workspace/compe_prog_new/typical90/047/main.py'
+
+[tasks.048]
+id = 'typical90_av'
+path = '/home/kshino/workspace/compe_prog_new/typical90/048/main.py'
+
+[tasks.049]
+id = 'typical90_aw'
+path = '/home/kshino/workspace/compe_prog_new/typical90/049/main.py'
+
+[tasks.050]
+id = 'typical90_ax'
+path = '/home/kshino/workspace/compe_prog_new/typical90/050/main.py'
+
+[tasks.051]
+id = 'typical90_ay'
+path = '/home/kshino/workspace/compe_prog_new/typical90/051/main.py'
+
+[tasks.052]
+id = 'typical90_az'
+path = '/home/kshino/workspace/compe_prog_new/typical90/052/main.py'
+
+[tasks.053]
+id = 'typical90_ba'
+path = '/home/kshino/workspace/compe_prog_new/typical90/053/main.py'
+
+[tasks.054]
+id = 'typical90_bb'
+path = '/home/kshino/workspace/compe_prog_new/typical90/054/main.py'
+
+[tasks.055]
+id = 'typical90_bc'
+path = '/home/kshino/workspace/compe_prog_new/typical90/055/main.py'
+
+[tasks.056]
+id = 'typical90_bd'
+path = '/home/kshino/workspace/compe_prog_new/typical90/056/main.py'
+
+[tasks.057]
+id = 'typical90_be'
+path = '/home/kshino/workspace/compe_prog_new/typical90/057/main.py'
+
+[tasks.058]
+id = 'typical90_bf'
+path = '/home/kshino/workspace/compe_prog_new/typical90/058/main.py'
+
+[tasks.059]
+id = 'typical90_bg'
+path = '/home/kshino/workspace/compe_prog_new/typical90/059/main.py'
+
+[tasks.060]
+id = 'typical90_bh'
+path = '/home/kshino/workspace/compe_prog_new/typical90/060/main.py'
+
+[tasks.061]
+id = 'typical90_bi'
+path = '/home/kshino/workspace/compe_prog_new/typical90/061/main.py'
+
+[tasks.062]
+id = 'typical90_bj'
+path = '/home/kshino/workspace/compe_prog_new/typical90/062/main.py'
+
+[tasks.063]
+id = 'typical90_bk'
+path = '/home/kshino/workspace/compe_prog_new/typical90/063/main.py'
+
+[tasks.064]
+id = 'typical90_bl'
+path = '/home/kshino/workspace/compe_prog_new/typical90/064/main.py'
+
+[tasks.065]
+id = 'typical90_bm'
+path = '/home/kshino/workspace/compe_prog_new/typical90/065/main.py'
+
+[tasks.066]
+id = 'typical90_bn'
+path = '/home/kshino/workspace/compe_prog_new/typical90/066/main.py'
+
+[tasks.067]
+id = 'typical90_bo'
+path = '/home/kshino/workspace/compe_prog_new/typical90/067/main.py'
+
+[tasks.068]
+id = 'typical90_bp'
+path = '/home/kshino/workspace/compe_prog_new/typical90/068/main.py'
+
+[tasks.069]
+id = 'typical90_bq'
+path = '/home/kshino/workspace/compe_prog_new/typical90/069/main.py'
+
+[tasks.070]
+id = 'typical90_br'
+path = '/home/kshino/workspace/compe_prog_new/typical90/070/main.py'
+
+[tasks.071]
+id = 'typical90_bs'
+path = '/home/kshino/workspace/compe_prog_new/typical90/071/main.py'
+
+[tasks.072]
+id = 'typical90_bt'
+path = '/home/kshino/workspace/compe_prog_new/typical90/072/main.py'
+
+[tasks.073]
+id = 'typical90_bu'
+path = '/home/kshino/workspace/compe_prog_new/typical90/073/main.py'
+
+[tasks.074]
+id = 'typical90_bv'
+path = '/home/kshino/workspace/compe_prog_new/typical90/074/main.py'
+
+[tasks.075]
+id = 'typical90_bw'
+path = '/home/kshino/workspace/compe_prog_new/typical90/075/main.py'
+
+[tasks.076]
+id = 'typical90_bx'
+path = '/home/kshino/workspace/compe_prog_new/typical90/076/main.py'
+
+[tasks.077]
+id = 'typical90_by'
+path = '/home/kshino/workspace/compe_prog_new/typical90/077/main.py'
+
+[tasks.078]
+id = 'typical90_bz'
+path = '/home/kshino/workspace/compe_prog_new/typical90/078/main.py'
+
+[tasks.079]
+id = 'typical90_ca'
+path = '/home/kshino/workspace/compe_prog_new/typical90/079/main.py'
+
+[tasks.080]
+id = 'typical90_cb'
+path = '/home/kshino/workspace/compe_prog_new/typical90/080/main.py'
+
+[tasks.081]
+id = 'typical90_cc'
+path = '/home/kshino/workspace/compe_prog_new/typical90/081/main.py'
+
+[tasks.082]
+id = 'typical90_cd'
+path = '/home/kshino/workspace/compe_prog_new/typical90/082/main.py'
+
+[tasks.083]
+id = 'typical90_ce'
+path = '/home/kshino/workspace/compe_prog_new/typical90/083/main.py'
+
+[tasks.084]
+id = 'typical90_cf'
+path = '/home/kshino/workspace/compe_prog_new/typical90/084/main.py'
+
+[tasks.085]
+id = 'typical90_cg'
+path = '/home/kshino/workspace/compe_prog_new/typical90/085/main.py'
+
+[tasks.086]
+id = 'typical90_ch'
+path = '/home/kshino/workspace/compe_prog_new/typical90/086/main.py'
+
+[tasks.087]
+id = 'typical90_ci'
+path = '/home/kshino/workspace/compe_prog_new/typical90/087/main.py'
+
+[tasks.088]
+id = 'typical90_cj'
+path = '/home/kshino/workspace/compe_prog_new/typical90/088/main.py'
+
+[tasks.089]
+id = 'typical90_ck'
+path = '/home/kshino/workspace/compe_prog_new/typical90/089/main.py'
+
+[tasks.090]
+id = 'typical90_cl'
+path = '/home/kshino/workspace/compe_prog_new/typical90/090/main.py'
+
+

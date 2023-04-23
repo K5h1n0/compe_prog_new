@@ -1,0 +1,28 @@
+[config]
+buildcmd = ''
+filename = 'main.py'
+lang = '4047'
+runcmd = 'python3 {{ .file }}'
+
+[contest]
+name = 'caddi2018b'
+url = 'https://atcoder.jp/contests/caddi2018b?lang=ja'
+
+[tasks]
+[tasks.a]
+id = 'caddi2018b_a'
+path = '/home/kshino/workspace/compe_prog_new/other/caddi2018b/a/main.py'
+
+[tasks.b]
+id = 'caddi2018b_b'
+path = '/home/kshino/workspace/compe_prog_new/other/caddi2018b/b/main.py'
+
+[tasks.c]
+id = 'caddi2018_a'
+path = '/home/kshino/workspace/compe_prog_new/other/caddi2018b/c/main.py'
+
+[tasks.d]
+id = 'caddi2018_b'
+path = '/home/kshino/workspace/compe_prog_new/other/caddi2018b/d/main.py'
+
+

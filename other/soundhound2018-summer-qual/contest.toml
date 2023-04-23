@@ -1,0 +1,32 @@
+[config]
+buildcmd = ''
+filename = 'main.py'
+lang = '4047'
+runcmd = 'python3 {{ .file }}'
+
+[contest]
+name = 'soundhound2018-summer-qual'
+url = 'https://atcoder.jp/contests/soundhound2018-summer-qual?lang=ja'
+
+[tasks]
+[tasks.a]
+id = 'soundhound2018_summer_qual_a'
+path = '/home/kshino/workspace/compe_prog_new/other/soundhound2018-summer-qual/a/main.py'
+
+[tasks.b]
+id = 'soundhound2018_summer_qual_b'
+path = '/home/kshino/workspace/compe_prog_new/other/soundhound2018-summer-qual/b/main.py'
+
+[tasks.c]
+id = 'soundhound2018_summer_qual_c'
+path = '/home/kshino/workspace/compe_prog_new/other/soundhound2018-summer-qual/c/main.py'
+
+[tasks.d]
+id = 'soundhound2018_summer_qual_d'
+path = '/home/kshino/workspace/compe_prog_new/other/soundhound2018-summer-qual/d/main.py'
+
+[tasks.e]
+id = 'soundhound2018_summer_qual_e'
+path = '/home/kshino/workspace/compe_prog_new/other/soundhound2018-summer-qual/e/main.py'
+
+

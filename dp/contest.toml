@@ -1,0 +1,116 @@
+[config]
+buildcmd = ''
+filename = 'main.py'
+lang = '4006'
+runcmd = 'python3 {{ .file }}'
+
+[contest]
+name = 'dp'
+url = 'https://atcoder.jp/contests/dp?lang=ja'
+
+[tasks]
+[tasks.a]
+id = 'dp_a'
+path = '/home/kshino/workspace/compe_prog_new/dp/a/main.py'
+
+[tasks.b]
+id = 'dp_b'
+path = '/home/kshino/workspace/compe_prog_new/dp/b/main.py'
+
+[tasks.c]
+id = 'dp_c'
+path = '/home/kshino/workspace/compe_prog_new/dp/c/main.py'
+
+[tasks.d]
+id = 'dp_d'
+path = '/home/kshino/workspace/compe_prog_new/dp/d/main.py'
+
+[tasks.e]
+id = 'dp_e'
+path = '/home/kshino/workspace/compe_prog_new/dp/e/main.py'
+
+[tasks.f]
+id = 'dp_f'
+path = '/home/kshino/workspace/compe_prog_new/dp/f/main.py'
+
+[tasks.g]
+id = 'dp_g'
+path = '/home/kshino/workspace/compe_prog_new/dp/g/main.py'
+
+[tasks.h]
+id = 'dp_h'
+path = '/home/kshino/workspace/compe_prog_new/dp/h/main.py'
+
+[tasks.i]
+id = 'dp_i'
+path = '/home/kshino/workspace/compe_prog_new/dp/i/main.py'
+
+[tasks.j]
+id = 'dp_j'
+path = '/home/kshino/workspace/compe_prog_new/dp/j/main.py'
+
+[tasks.k]
+id = 'dp_k'
+path = '/home/kshino/workspace/compe_prog_new/dp/k/main.py'
+
+[tasks.l]
+id = 'dp_l'
+path = '/home/kshino/workspace/compe_prog_new/dp/l/main.py'
+
+[tasks.m]
+id = 'dp_m'
+path = '/home/kshino/workspace/compe_prog_new/dp/m/main.py'
+
+[tasks.n]
+id = 'dp_n'
+path = '/home/kshino/workspace/compe_prog_new/dp/n/main.py'
+
+[tasks.o]
+id = 'dp_o'
+path = '/home/kshino/workspace/compe_prog_new/dp/o/main.py'
+
+[tasks.p]
+id = 'dp_p'
+path = '/home/kshino/workspace/compe_prog_new/dp/p/main.py'
+
+[tasks.q]
+id = 'dp_q'
+path = '/home/kshino/workspace/compe_prog_new/dp/q/main.py'
+
+[tasks.r]
+id = 'dp_r'
+path = '/home/kshino/workspace/compe_prog_new/dp/r/main.py'
+
+[tasks.s]
+id = 'dp_s'
+path = '/home/kshino/workspace/compe_prog_new/dp/s/main.py'
+
+[tasks.t]
+id = 'dp_t'
+path = '/home/kshino/workspace/compe_prog_new/dp/t/main.py'
+
+[tasks.u]
+id = 'dp_u'
+path = '/home/kshino/workspace/compe_prog_new/dp/u/main.py'
+
+[tasks.v]
+id = 'dp_v'
+path = '/home/kshino/workspace/compe_prog_new/dp/v/main.py'
+
+[tasks.w]
+id = 'dp_w'
+path = '/home/kshino/workspace/compe_prog_new/dp/w/main.py'
+
+[tasks.x]
+id = 'dp_x'
+path = '/home/kshino/workspace/compe_prog_new/dp/x/main.py'
+
+[tasks.y]
+id = 'dp_y'
+path = '/home/kshino/workspace/compe_prog_new/dp/y/main.py'
+
+[tasks.z]
+id = 'dp_z'
+path = '/home/kshino/workspace/compe_prog_new/dp/z/main.py'
+
+

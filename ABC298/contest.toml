@@ -1,0 +1,44 @@
+[config]
+buildcmd = ''
+filename = 'main.py'
+lang = '4047'
+runcmd = 'python3 {{ .file }}'
+
+[contest]
+name = 'ABC298'
+url = 'https://atcoder.jp/contests/ABC298?lang=ja'
+
+[tasks]
+[tasks.a]
+id = 'abc298_a'
+path = '/home/kshino/workspace/compe_prog_new/ABC298/a/main.py'
+
+[tasks.b]
+id = 'abc298_b'
+path = '/home/kshino/workspace/compe_prog_new/ABC298/b/main.py'
+
+[tasks.c]
+id = 'abc298_c'
+path = '/home/kshino/workspace/compe_prog_new/ABC298/c/main.py'
+
+[tasks.d]
+id = 'abc298_d'
+path = '/home/kshino/workspace/compe_prog_new/ABC298/d/main.py'
+
+[tasks.e]
+id = ''
+path = '/home/kshino/workspace/compe_prog_new/ABC298/e/main.py'
+
+[tasks.ex]
+id = ''
+path = '/home/kshino/workspace/compe_prog_new/ABC298/ex/main.py'
+
+[tasks.f]
+id = ''
+path = '/home/kshino/workspace/compe_prog_new/ABC298/f/main.py'
+
+[tasks.g]
+id = ''
+path = '/home/kshino/workspace/compe_prog_new/ABC298/g/main.py'
+
+
