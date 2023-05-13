@@ -1,4 +1,4 @@
-def calc_divisors(x:int):
+def calc_divisors(x:int): # 約数列挙
     list_divisors = []
     for i in range(1,int(x**0.5)+1):
         if x % i == 0:
@@ -7,9 +7,15 @@ def calc_divisors(x:int):
     list_divisors.sort()
     return list_divisors # 返却値は約数のリスト
 
+
+
+
 n = int(input())
 print(calc_divisors(n))
 print(len(calc_divisors(n))) #約数の個数を求めたいときはlen()を取ればOK
+
+# 約数の個数を求める他の方法として、素因数分解をした後、指数部分+1の積を求める方法もある。
+
 
 """
 #ベタ書き

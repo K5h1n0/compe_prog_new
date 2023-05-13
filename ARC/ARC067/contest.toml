@@ -1,0 +1,28 @@
+[config]
+buildcmd = ''
+filename = 'main.py'
+lang = '4047'
+runcmd = 'python3 {{ .file }}'
+
+[contest]
+name = 'ARC067'
+url = 'https://atcoder.jp/contests/ARC067?lang=ja'
+
+[tasks]
+[tasks.c]
+id = 'arc067_a'
+path = '/home/kshino/workspace/compe_prog_new/ARC/ARC067/c/main.py'
+
+[tasks.d]
+id = 'arc067_b'
+path = '/home/kshino/workspace/compe_prog_new/ARC/ARC067/d/main.py'
+
+[tasks.e]
+id = 'arc067_c'
+path = '/home/kshino/workspace/compe_prog_new/ARC/ARC067/e/main.py'
+
+[tasks.f]
+id = 'arc067_d'
+path = '/home/kshino/workspace/compe_prog_new/ARC/ARC067/f/main.py'
+
+
