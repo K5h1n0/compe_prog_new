@@ -1,0 +1,36 @@
+[config]
+buildcmd = ''
+filename = 'main.py'
+lang = '4047'
+runcmd = 'python3 {{ .file }}'
+
+[contest]
+name = 'ARC108'
+url = 'https://atcoder.jp/contests/ARC108?lang=ja'
+
+[tasks]
+[tasks.a]
+id = 'arc108_a'
+path = '/home/kshino/workspace/compe_prog_new/ARC/ARC108/a/main.py'
+
+[tasks.b]
+id = ''
+path = '/home/kshino/workspace/compe_prog_new/ARC/ARC108/b/main.py'
+
+[tasks.c]
+id = ''
+path = '/home/kshino/workspace/compe_prog_new/ARC/ARC108/c/main.py'
+
+[tasks.d]
+id = ''
+path = '/home/kshino/workspace/compe_prog_new/ARC/ARC108/d/main.py'
+
+[tasks.e]
+id = ''
+path = '/home/kshino/workspace/compe_prog_new/ARC/ARC108/e/main.py'
+
+[tasks.f]
+id = ''
+path = '/home/kshino/workspace/compe_prog_new/ARC/ARC108/f/main.py'
+
+
