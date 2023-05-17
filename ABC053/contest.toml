@@ -1,0 +1,28 @@
+[config]
+buildcmd = ''
+filename = 'main.py'
+lang = '4047'
+runcmd = 'python3 {{ .file }}'
+
+[contest]
+name = 'ABC053'
+url = 'https://atcoder.jp/contests/ABC053?lang=ja'
+
+[tasks]
+[tasks.a]
+id = 'abc053_a'
+path = '/home/kshino/workspace/compe_prog_new/ABC053/a/main.py'
+
+[tasks.b]
+id = 'abc053_b'
+path = '/home/kshino/workspace/compe_prog_new/ABC053/b/main.py'
+
+[tasks.c]
+id = 'arc068_a'
+path = '/home/kshino/workspace/compe_prog_new/ABC053/c/main.py'
+
+[tasks.d]
+id = 'arc068_b'
+path = '/home/kshino/workspace/compe_prog_new/ABC053/d/main.py'
+
+
