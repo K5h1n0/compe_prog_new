@@ -1,29 +1,25 @@
-#解説見ながら
-#オイラーツアーと呼ぶらしい。
-
-import sys
 from collections import defaultdict
+import sys
 sys.setrecursionlimit(10**6)
+
+def dfs(pre,now):
+    ans.append(now)
+    for next in d[now]:
+        if next == pre:
+            continue
+        dfs(now,next)
+        ans.append(now)
 
 n = int(input())
 d = defaultdict(list)
-ans = []
 for i in range(n-1):
     a,b = map(int,input().split())
     d[a].append(b)
     d[b].append(a)
 
-# 問題文から、都市番号の小さい順に回るため、ここのソートは必要。
-for i in range(len(d)+1): #range(0,len(d))にすると、defaultdictに勝手に0というキーが追加されてしまうので、1スタート。
-    d[i].sort()
+for i,v in d.items(): #入力が必ずしも番号の小さい順に行われるとも限らないので、各節から出る枝を節の番号の昇順にソートする必要がある。
+    d[i] = sorted(v)
 
-def dfs(now,pre):
-    ans.append(now)
-
-    for to in d[now]: #やっぱりdfsでもfor文は必要なんだなという気持ち
-        if to != pre:
-            dfs(to,now)
-            ans.append(now) #関数の中で再度関数を呼び出した後に実行する命令を書くこともあるのか。
-
-dfs(1,-1) #最初の起爆剤として、今いる都市1を入れる。都市1の前は無いので、存在しない都市-1を仮に入れておくらしい。
+ans = []
+dfs(-1,1)
 print(*ans)
