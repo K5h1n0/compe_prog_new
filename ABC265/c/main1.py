@@ -1,6 +1,12 @@
 import sys
 sys.setrecursionlimit(10**6)
 
+h,w = map(int,input().split())
+l = []
+for i in range(h):
+    l.append(list(input()))
+searched = [[0 for __ in range(w)]for __ in range(h)]
+
 def dfs(nowy,nowx):
     if searched[nowy][nowx] == 1:
         print(-1)
@@ -13,7 +19,7 @@ def dfs(nowy,nowx):
                 exit()
             dfs(nowy-1,nowx)
         elif l[nowy][nowx] == "D":
-            if nowy+1 == h:
+            if nowy == h-1: #ここの-1入れるの忘れて悩んだ
                 print(nowy+1,nowx+1)
                 exit()
             dfs(nowy+1,nowx)
@@ -23,15 +29,9 @@ def dfs(nowy,nowx):
                 exit()
             dfs(nowy,nowx-1)
         elif l[nowy][nowx] == "R":
-            if nowx+1 == w:
+            if nowx == w-1: #ここの-1入れるの忘れて悩んだ
                 print(nowy+1,nowx+1)
                 exit()
             dfs(nowy,nowx+1)
-
-h,w = map(int,input().split())
-l = []
-for i in range(h):
-    l.append(list(input()))
-searched = [[0 for __ in range(w)] for __ in range(h)]
 
 dfs(0,0)
