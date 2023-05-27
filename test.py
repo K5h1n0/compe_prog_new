@@ -12,18 +12,17 @@ for i in range(h):
 for i in range(3):
     print(*ans[i])
 """
-
 # テストケース出力
 import random
-n = 3
-m = 4
+n = 8
+m = 12
 print(n,m)
 l = []
 for i in range(n):
     tmp = []
     for j in range(m):
-        if random.randrange(0,2) == 0:
-            tmp.append(random.randrange(1,5))
+        if random.randrange(0,7) == 0:
+            tmp.append(random.randrange(1,100))
         else:
             tmp.append(0)
     l.append(tmp)
