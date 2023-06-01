@@ -1,0 +1,36 @@
+[config]
+buildcmd = ''
+filename = 'main.py'
+lang = '4047'
+runcmd = 'python3 {{ .file }}'
+
+[contest]
+name = 'code-festival-2017-qualc'
+url = 'https://atcoder.jp/contests/code-festival-2017-qualc?lang=ja'
+
+[tasks]
+[tasks.a]
+id = 'code_festival_2017_qualc_a'
+path = '/home/kshino/workspace/compe_prog_new/other/code-festival-2017-qualc/a/main.py'
+
+[tasks.b]
+id = 'code_festival_2017_qualc_b'
+path = '/home/kshino/workspace/compe_prog_new/other/code-festival-2017-qualc/b/main.py'
+
+[tasks.c]
+id = 'code_festival_2017_qualc_c'
+path = '/home/kshino/workspace/compe_prog_new/other/code-festival-2017-qualc/c/main.py'
+
+[tasks.d]
+id = 'code_festival_2017_qualc_d'
+path = '/home/kshino/workspace/compe_prog_new/other/code-festival-2017-qualc/d/main.py'
+
+[tasks.e]
+id = 'code_festival_2017_qualc_e'
+path = '/home/kshino/workspace/compe_prog_new/other/code-festival-2017-qualc/e/main.py'
+
+[tasks.f]
+id = 'code_festival_2017_qualc_f'
+path = '/home/kshino/workspace/compe_prog_new/other/code-festival-2017-qualc/f/main.py'
+
+

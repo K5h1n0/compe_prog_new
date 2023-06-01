@@ -18,7 +18,7 @@ id = 'jsc2021_b'
 path = '/home/kshino/workspace/compe_prog_new/other/jsc2021/b/main.py'
 
 [tasks.c]
-id = ''
+id = 'jsc2021_c'
 path = '/home/kshino/workspace/compe_prog_new/other/jsc2021/c/main.py'
 
 [tasks.d]
