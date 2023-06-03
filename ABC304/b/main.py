@@ -1,0 +1,19 @@
+n = input()
+l = len(n)
+if l <= 2:
+    ans = n
+elif l <= 3:
+    ans = n[:3]
+elif l <= 4:
+    ans = n[:3] + "0"
+elif l <= 5:
+    ans = n[:3] + "00"
+elif l <= 6:
+    ans = n[:3] + "000"
+elif l <= 7:
+    ans = n[:3] + "0000"
+elif l <= 8:
+    ans = n[:3] + "00000"
+elif l <= 9:
+    ans = n[:3] + "000000"
+print(ans)
