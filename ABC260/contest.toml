@@ -1,0 +1,44 @@
+[config]
+buildcmd = ''
+filename = 'main.py'
+lang = '4047'
+runcmd = 'python3 {{ .file }}'
+
+[contest]
+name = 'ABC260'
+url = 'https://atcoder.jp/contests/ABC260?lang=ja'
+
+[tasks]
+[tasks.a]
+id = ''
+path = '/home/kshino/workspace/compe_prog_new/ABC260/a/main.py'
+
+[tasks.b]
+id = ''
+path = '/home/kshino/workspace/compe_prog_new/ABC260/b/main.py'
+
+[tasks.c]
+id = ''
+path = '/home/kshino/workspace/compe_prog_new/ABC260/c/main.py'
+
+[tasks.d]
+id = ''
+path = '/home/kshino/workspace/compe_prog_new/ABC260/d/main.py'
+
+[tasks.e]
+id = ''
+path = '/home/kshino/workspace/compe_prog_new/ABC260/e/main.py'
+
+[tasks.ex]
+id = ''
+path = '/home/kshino/workspace/compe_prog_new/ABC260/ex/main.py'
+
+[tasks.f]
+id = ''
+path = '/home/kshino/workspace/compe_prog_new/ABC260/f/main.py'
+
+[tasks.g]
+id = ''
+path = '/home/kshino/workspace/compe_prog_new/ABC260/g/main.py'
+
+
