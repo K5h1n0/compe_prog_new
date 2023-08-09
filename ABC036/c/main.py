@@ -1,3 +1,6 @@
+#一次元の座標圧縮
+#二次元の座標圧縮はABC213-C
+
 from collections import defaultdict
 
 n = int(input())

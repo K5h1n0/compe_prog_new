@@ -18,7 +18,7 @@ id = 'hhkb2020_b'
 path = '/home/kshino/workspace/compe_prog_new/other/hhkb2020/b/main.py'
 
 [tasks.c]
-id = ''
+id = 'hhkb2020_c'
 path = '/home/kshino/workspace/compe_prog_new/other/hhkb2020/c/main.py'
 
 [tasks.d]
