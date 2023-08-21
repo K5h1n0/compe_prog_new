@@ -1,0 +1,34 @@
+[config]
+buildcmd = ''
+filename = 'main.py'
+lang = '4047'
+runcmd = 'python3 {{ .file }}'
+
+[contest]
+name = 'abc140'
+url = 'https://atcoder.jp/contests/abc140?lang=ja'
+
+[tasks]
+[tasks.a]
+id = ''
+path = '/home/kshino/workspace/compe_prog_new/ABC140/a/main.py'
+
+[tasks.b]
+id = 'abc140_b'
+path = '/home/kshino/workspace/compe_prog_new/ABC140/b/main.py'
+
+[tasks.c]
+id = 'abc140_c'
+path = '/home/kshino/workspace/compe_prog_new/ABC140/c/main.py'
+
+[tasks.d]
+id = ''
+path = '/home/kshino/workspace/compe_prog_new/ABC140/d/main.py'
+
+[tasks.e]
+id = ''
+path = '/home/kshino/workspace/compe_prog_new/ABC140/e/main.py'
+
+[tasks.f]
+id = ''
+path = '/home/kshino/workspace/compe_prog_new/ABC140/f/main.py'
