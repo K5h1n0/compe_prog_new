@@ -1,0 +1,479 @@
+INFO: 2023/09/02 21:06:12 Read contest settisg
+INFO: 2023/09/02 21:06:12 [{"name":"abc318","url":"https://atcoder.jp/contests/abc318?lang=ja"}]
+INFO: 2023/09/02 21:06:12 Fetch test cases
+* Request at 2023-09-02 21:06:12.130858935 +0900 JST m=+0.006528626
+* Request to https://atcoder.jp/contests/abc318/tasks/abc318_a?lang=ja
+> GET /contests/abc318/tasks/abc318_a?lang=ja HTTP/1.1
+> Host: atcoder.jp
+> Cookie: REVEL_FLASH=;  Path=████████████████████;  HttpOnly=;  Secure=; REVEL_SESSION=████████████████████;  Path=████████████████████;  Expires=████████████████████;  Max-Age=████████████████████;  HttpOnly=;  Secure=
+
+* TLS connection using TLS 1.3 / TLS_AES_128_GCM_SHA256
+* ALPN: h2 accepted
+* Server certificate:
+*  subject: CN=atcoder.jp
+*  start date: Fri Jun 30 00:00:00 UTC 2023
+*  expire date: Mon Jul 29 23:59:59 UTC 2024
+*  issuer: CN=Amazon RSA 2048 M01,O=Amazon,C=US
+*  TLS certificate verify ok.
+< HTTP/2.0 200 OK
+< Cache-Control: no-cache, no-store, must-revalidate, private
+< Content-Type: text/html; charset=utf-8
+< Date: Sat, 02 Sep 2023 12:06:16 GMT
+< Expires: Fri, 1 Jan 2010 00:00:00 GMT
+< Pragma: no-cache
+< Referrer-Policy: strict-origin-when-cross-origin
+< Server: nginx
+< Set-Cookie: language=; Path=/; Expires=Sat, 02 Sep 2023 12:06:16 GMT
+< Set-Cookie: language=████████████████████; Path=/; Domain=atcoder.jp; Expires=Thu, 31 Aug 2028 12:06:16 GMT
+< Set-Cookie: REVEL_FLASH=; Path=/; HttpOnly; Secure
+< Set-Cookie: REVEL_SESSION=████████████████████; Path=/; Expires=Thu, 29 Feb 2024 12:06:16 GMT; Max-Age=15552000; HttpOnly; Secure
+< Strict-Transport-Security: max-age=31536000
+< Vary: Accept-Encoding
+< Via: 1.1 6edfdc31da7f18a47c7703a5df6de3c6.cloudfront.net (CloudFront)
+< X-Amz-Cf-Id: xAKbxJ7YjVC0DOHSU2FYT01kBZI1UEghp4YDMwYvu5sMaVcpFxVKIg==
+< X-Amz-Cf-Pop: NRT20-C4
+< X-Cache: Miss from cloudfront
+< X-Content-Type-Options: nosniff
+< X-Frame-Options: SAMEORIGIN
+< X-Xss-Protection: 1; mode=block
+
+* body is too long, skipping (contains more than 10000 bytes)
+* Request took 65.181885ms
+INFO: 2023/09/02 21:06:12 test cases [[{"ID":1,"In":"13 3 5","Expected":"3"},{"ID":2,"In":"5 6 6","Expected":"0"},{"ID":3,"In":"200000 314 318","Expected":"628"}]]
+INFO: 2023/09/02 21:06:12 config [{"run_cmd":"python3 {{ .file }}","build_cmd":"","lang":"5078","file_name":"main.py","template":""}]
+INFO: 2023/09/02 21:06:12 Run code
+sample test case 1 ... success   76ms 
+INFO: 2023/09/02 21:06:12 Run code
+sample test case 2 ... success   78ms 
+INFO: 2023/09/02 21:06:12 Run code
+sample test case 3 ... success   90ms 
+INFO: 2023/09/02 21:06:12 task [{"id":"abc318_a","path":"/home/kshino/workspace/compe_prog_new/abc318/a/main.py"}]
+INFO: 2023/09/02 21:06:12 content config [{"name":"abc318","url":"https://atcoder.jp/contests/abc318?lang=ja"}]
+INFO: 2023/09/02 21:06:12 config [{"run_cmd":"python3 {{ .file }}","build_cmd":"","lang":"5078","file_name":"main.py","template":""}]
+* Request at 2023-09-02 21:06:12.447506383 +0900 JST m=+0.323176072
+* Request to https://atcoder.jp/contests/abc318/submit?lang=ja
+> GET /contests/abc318/submit?lang=ja HTTP/1.1
+> Host: atcoder.jp
+> Cookie: REVEL_FLASH=;  Path=████████████████████;  HttpOnly=;  Secure=; REVEL_SESSION=████████████████████;  Path=████████████████████;  Expires=████████████████████;  Max-Age=████████████████████;  HttpOnly=;  Secure=
+
+* TLS connection using TLS 1.3 / TLS_AES_128_GCM_SHA256
+* ALPN: h2 accepted
+* Server certificate:
+*  subject: CN=atcoder.jp
+*  start date: Fri Jun 30 00:00:00 UTC 2023
+*  expire date: Mon Jul 29 23:59:59 UTC 2024
+*  issuer: CN=Amazon RSA 2048 M01,O=Amazon,C=US
+*  TLS certificate verify ok.
+< HTTP/2.0 200 OK
+< Cache-Control: no-cache, no-store, must-revalidate, private
+< Content-Type: text/html; charset=utf-8
+< Date: Sat, 02 Sep 2023 12:06:16 GMT
+< Expires: Fri, 1 Jan 2010 00:00:00 GMT
+< Pragma: no-cache
+< Referrer-Policy: strict-origin-when-cross-origin
+< Server: nginx
+< Set-Cookie: language=; Path=/; Expires=Sat, 02 Sep 2023 12:06:16 GMT
+< Set-Cookie: language=████████████████████; Path=/; Domain=atcoder.jp; Expires=Thu, 31 Aug 2028 12:06:16 GMT
+< Set-Cookie: REVEL_FLASH=; Path=/; HttpOnly; Secure
+< Set-Cookie: REVEL_SESSION=████████████████████; Path=/; Expires=Thu, 29 Feb 2024 12:06:16 GMT; Max-Age=15552000; HttpOnly; Secure
+< Strict-Transport-Security: max-age=31536000
+< Vary: Accept-Encoding
+< Via: 1.1 6edfdc31da7f18a47c7703a5df6de3c6.cloudfront.net (CloudFront)
+< X-Amz-Cf-Id: tWgdKYdpVpyfF_7AVDlZkUPNOjWXfccfXkxUaE_soEuZqVcpZWEMBg==
+< X-Amz-Cf-Pop: NRT20-C4
+< X-Cache: Miss from cloudfront
+< X-Content-Type-Options: nosniff
+< X-Frame-Options: SAMEORIGIN
+< X-Xss-Protection: 1; mode=block
+
+* body is too long, skipping (contains more than 10000 bytes)
+* Request took 33.072098ms
+* Request at 2023-09-02 21:06:12.482003424 +0900 JST m=+0.357673114
+* Request to https://atcoder.jp/contests/abc318/submit?lang=ja
+> POST /contests/abc318/submit?lang=ja HTTP/1.1
+> Host: atcoder.jp
+> Content-Length: 293
+> Content-Type: application/x-www-form-urlencoded
+> Cookie: language=████████████████████;  REVEL_FLASH=;  REVEL_SESSION=████████████████████
+
+csrf_token=MpvHtgTJm7ZwC1Qke4LP5lNOGTEF1xrpNauZ%2FcxSAaM%3D&data.LanguageId=5078&data.TaskScreenName=abc318_a&sourceCode=n%2C+m%2C+p+%3D+map%28int%2C+input%28%29.split%28%29%29%0Aans+%3D+0%0Afor+i+in+range%28n-m%2B1%29%3A%0A++++if+i+%25+p+%3D%3D+0%3A%0A++++++++ans+%2B%3D+1%0Aprint%28ans%29%0A
+* TLS connection using TLS 1.3 / TLS_AES_128_GCM_SHA256
+* ALPN: h2 accepted
+* Server certificate:
+*  subject: CN=atcoder.jp
+*  start date: Fri Jun 30 00:00:00 UTC 2023
+*  expire date: Mon Jul 29 23:59:59 UTC 2024
+*  issuer: CN=Amazon RSA 2048 M01,O=Amazon,C=US
+*  TLS certificate verify ok.
+< HTTP/2.0 302 Found
+< Cache-Control: no-cache, no-store, must-revalidate, private
+< Content-Length: 0
+< Date: Sat, 02 Sep 2023 12:06:16 GMT
+< Expires: Fri, 1 Jan 2010 00:00:00 GMT
+< Location: /contests/abc318/submissions/me
+< Pragma: no-cache
+< Referrer-Policy: strict-origin-when-cross-origin
+< Server: nginx
+< Set-Cookie: language=; Path=/; Expires=Sat, 02 Sep 2023 12:06:16 GMT
+< Set-Cookie: language=████████████████████; Path=/; Domain=atcoder.jp; Expires=Thu, 31 Aug 2028 12:06:16 GMT
+< Set-Cookie: REVEL_FLASH=; Path=/; HttpOnly; Secure
+< Set-Cookie: REVEL_SESSION=████████████████████; Path=/; Expires=Thu, 29 Feb 2024 12:06:16 GMT; Max-Age=15552000; HttpOnly; Secure
+< Strict-Transport-Security: max-age=31536000
+< Via: 1.1 6edfdc31da7f18a47c7703a5df6de3c6.cloudfront.net (CloudFront)
+< X-Amz-Cf-Id: EzER3rLOjNubWqAZ0ZLFAOD6rYu8f1OE4X7A3Zj3vRduezWn7uinWA==
+< X-Amz-Cf-Pop: NRT20-C4
+< X-Cache: Miss from cloudfront
+< X-Content-Type-Options: nosniff
+< X-Frame-Options: SAMEORIGIN
+< X-Xss-Protection: 1; mode=block
+
+* Request took 29.557854ms
+* Request at 2023-09-02 21:06:12.51165081 +0900 JST m=+0.387320502
+* Request to https://atcoder.jp/contests/abc318/submissions/me
+> GET /contests/abc318/submissions/me 
+> Host: atcoder.jp
+> Content-Type: application/x-www-form-urlencoded
+> Cookie: language=████████████████████;  REVEL_FLASH=;  REVEL_SESSION=████████████████████
+> Referer: https://atcoder.jp/contests/abc318/submit?lang=ja
+
+* TLS connection using TLS 1.3 / TLS_AES_128_GCM_SHA256
+* ALPN: h2 accepted
+* Server certificate:
+*  subject: CN=atcoder.jp
+*  start date: Fri Jun 30 00:00:00 UTC 2023
+*  expire date: Mon Jul 29 23:59:59 UTC 2024
+*  issuer: CN=Amazon RSA 2048 M01,O=Amazon,C=US
+< HTTP/2.0 200 OK
+< Cache-Control: no-cache, no-store, must-revalidate, private
+< Content-Type: text/html; charset=utf-8
+< Date: Sat, 02 Sep 2023 12:06:16 GMT
+< Expires: Fri, 1 Jan 2010 00:00:00 GMT
+< Pragma: no-cache
+< Referrer-Policy: strict-origin-when-cross-origin
+< Server: nginx
+< Set-Cookie: REVEL_FLASH=; Path=/; HttpOnly; Secure
+< Set-Cookie: REVEL_SESSION=████████████████████; Path=/; Expires=Thu, 29 Feb 2024 12:06:16 GMT; Max-Age=15552000; HttpOnly; Secure
+< Strict-Transport-Security: max-age=31536000
+< Vary: Accept-Encoding
+< Via: 1.1 6edfdc31da7f18a47c7703a5df6de3c6.cloudfront.net (CloudFront)
+< X-Amz-Cf-Id: NACFZaPAsiJvNr_RYVS3w3jXgL61erMBP6xN0NE0b_BAdNSStbEFUw==
+< X-Amz-Cf-Pop: NRT20-C4
+< X-Cache: Miss from cloudfront
+< X-Content-Type-Options: nosniff
+< X-Frame-Options: SAMEORIGIN
+< X-Xss-Protection: 1; mode=block
+
+* body is too long, skipping (contains more than 10000 bytes)
+* Request took 45.152285ms
+
+* Request at 2023-09-02 21:06:14.558005676 +0900 JST m=+2.433675366
+* Request to https://atcoder.jp/contests/abc318/submissions/me?lang=ja
+> GET /contests/abc318/submissions/me?lang=ja HTTP/1.1
+> Host: atcoder.jp
+> Cookie: REVEL_FLASH=;  Path=████████████████████;  HttpOnly=;  Secure=; REVEL_SESSION=████████████████████;  Path=████████████████████;  Expires=████████████████████;  Max-Age=████████████████████;  HttpOnly=;  Secure=
+
+* TLS connection using TLS 1.3 / TLS_AES_128_GCM_SHA256
+* ALPN: h2 accepted
+* Server certificate:
+*  subject: CN=atcoder.jp
+*  start date: Fri Jun 30 00:00:00 UTC 2023
+*  expire date: Mon Jul 29 23:59:59 UTC 2024
+*  issuer: CN=Amazon RSA 2048 M01,O=Amazon,C=US
+*  TLS certificate verify ok.
+< HTTP/2.0 200 OK
+< Cache-Control: no-cache, no-store, must-revalidate, private
+< Content-Type: text/html; charset=utf-8
+< Date: Sat, 02 Sep 2023 12:06:18 GMT
+< Expires: Fri, 1 Jan 2010 00:00:00 GMT
+< Pragma: no-cache
+< Referrer-Policy: strict-origin-when-cross-origin
+< Server: nginx
+< Set-Cookie: language=; Path=/; Expires=Sat, 02 Sep 2023 12:06:18 GMT
+< Set-Cookie: language=████████████████████; Path=/; Domain=atcoder.jp; Expires=Thu, 31 Aug 2028 12:06:18 GMT
+< Set-Cookie: REVEL_FLASH=; Path=/; HttpOnly; Secure
+< Set-Cookie: REVEL_SESSION=████████████████████; Path=/; Expires=Thu, 29 Feb 2024 12:06:18 GMT; Max-Age=15552000; HttpOnly; Secure
+< Strict-Transport-Security: max-age=31536000
+< Vary: Accept-Encoding
+< Via: 1.1 6edfdc31da7f18a47c7703a5df6de3c6.cloudfront.net (CloudFront)
+< X-Amz-Cf-Id: zNiFI67q_a59ZO7vsNfMvTRif6He1XKnAOgt9XPGoiHW2nlzR9FmRQ==
+< X-Amz-Cf-Pop: NRT20-C4
+< X-Cache: Miss from cloudfront
+< X-Content-Type-Options: nosniff
+< X-Frame-Options: SAMEORIGIN
+< X-Xss-Protection: 1; mode=block
+
+* body is too long, skipping (contains more than 10000 bytes)
+* Request took 72.471282ms
+* Request at 2023-09-02 21:06:15.631684892 +0900 JST m=+3.507354624
+* Request to https://atcoder.jp/contests/abc318/submissions/me?lang=ja
+> GET /contests/abc318/submissions/me?lang=ja HTTP/1.1
+> Host: atcoder.jp
+> Cookie: REVEL_FLASH=;  Path=████████████████████;  HttpOnly=;  Secure=; REVEL_SESSION=████████████████████;  Path=████████████████████;  Expires=████████████████████;  Max-Age=████████████████████;  HttpOnly=;  Secure=
+
+* TLS connection using TLS 1.3 / TLS_AES_128_GCM_SHA256
+* ALPN: h2 accepted
+* Server certificate:
+*  subject: CN=atcoder.jp
+*  start date: Fri Jun 30 00:00:00 UTC 2023
+*  expire date: Mon Jul 29 23:59:59 UTC 2024
+*  issuer: CN=Amazon RSA 2048 M01,O=Amazon,C=US
+*  TLS certificate verify ok.
+< HTTP/2.0 200 OK
+< Cache-Control: no-cache, no-store, must-revalidate, private
+< Content-Type: text/html; charset=utf-8
+< Date: Sat, 02 Sep 2023 12:06:19 GMT
+< Expires: Fri, 1 Jan 2010 00:00:00 GMT
+< Pragma: no-cache
+< Referrer-Policy: strict-origin-when-cross-origin
+< Server: nginx
+< Set-Cookie: language=; Path=/; Expires=Sat, 02 Sep 2023 12:06:19 GMT
+< Set-Cookie: language=████████████████████; Path=/; Domain=atcoder.jp; Expires=Thu, 31 Aug 2028 12:06:19 GMT
+< Set-Cookie: REVEL_FLASH=; Path=/; HttpOnly; Secure
+< Set-Cookie: REVEL_SESSION=████████████████████; Path=/; Expires=Thu, 29 Feb 2024 12:06:19 GMT; Max-Age=15552000; HttpOnly; Secure
+< Strict-Transport-Security: max-age=31536000
+< Vary: Accept-Encoding
+< Via: 1.1 6edfdc31da7f18a47c7703a5df6de3c6.cloudfront.net (CloudFront)
+< X-Amz-Cf-Id: 72BOj4YXms15UKLIIgXuFOw6DiQIUNfyzKZOtaYm8Sv6LcCYCD-qiA==
+< X-Amz-Cf-Pop: NRT20-C4
+< X-Cache: Miss from cloudfront
+< X-Content-Type-Options: nosniff
+< X-Frame-Options: SAMEORIGIN
+< X-Xss-Protection: 1; mode=block
+
+* body is too long, skipping (contains more than 10000 bytes)
+* Request took 26.191188ms
+* Request at 2023-09-02 21:06:16.65980561 +0900 JST m=+4.535475336
+* Request to https://atcoder.jp/contests/abc318/submissions/me?lang=ja
+> GET /contests/abc318/submissions/me?lang=ja HTTP/1.1
+> Host: atcoder.jp
+> Cookie: REVEL_FLASH=;  Path=████████████████████;  HttpOnly=;  Secure=; REVEL_SESSION=████████████████████;  Path=████████████████████;  Expires=████████████████████;  Max-Age=████████████████████;  HttpOnly=;  Secure=
+
+* TLS connection using TLS 1.3 / TLS_AES_128_GCM_SHA256
+* ALPN: h2 accepted
+* Server certificate:
+*  subject: CN=atcoder.jp
+*  start date: Fri Jun 30 00:00:00 UTC 2023
+*  expire date: Mon Jul 29 23:59:59 UTC 2024
+*  issuer: CN=Amazon RSA 2048 M01,O=Amazon,C=US
+*  TLS certificate verify ok.
+< HTTP/2.0 200 OK
+< Cache-Control: no-cache, no-store, must-revalidate, private
+< Content-Type: text/html; charset=utf-8
+< Date: Sat, 02 Sep 2023 12:06:20 GMT
+< Expires: Fri, 1 Jan 2010 00:00:00 GMT
+< Pragma: no-cache
+< Referrer-Policy: strict-origin-when-cross-origin
+< Server: nginx
+< Set-Cookie: language=; Path=/; Expires=Sat, 02 Sep 2023 12:06:20 GMT
+< Set-Cookie: language=████████████████████; Path=/; Domain=atcoder.jp; Expires=Thu, 31 Aug 2028 12:06:20 GMT
+< Set-Cookie: REVEL_FLASH=; Path=/; HttpOnly; Secure
+< Set-Cookie: REVEL_SESSION=████████████████████; Path=/; Expires=Thu, 29 Feb 2024 12:06:20 GMT; Max-Age=15552000; HttpOnly; Secure
+< Strict-Transport-Security: max-age=31536000
+< Vary: Accept-Encoding
+< Via: 1.1 6edfdc31da7f18a47c7703a5df6de3c6.cloudfront.net (CloudFront)
+< X-Amz-Cf-Id: OA2jcCglWdoZbOwcSwCUJkpiV9XCwl4wl_HrfkfaJz4hnu0BI0-0hA==
+< X-Amz-Cf-Pop: NRT20-C4
+< X-Cache: Miss from cloudfront
+< X-Content-Type-Options: nosniff
+< X-Frame-Options: SAMEORIGIN
+< X-Xss-Protection: 1; mode=block
+
+* body is too long, skipping (contains more than 10000 bytes)
+* Request took 45.292252ms
+* Request at 2023-09-02 21:06:17.707160595 +0900 JST m=+5.582830320
+* Request to https://atcoder.jp/contests/abc318/submissions/me?lang=ja
+> GET /contests/abc318/submissions/me?lang=ja HTTP/1.1
+> Host: atcoder.jp
+> Cookie: REVEL_FLASH=;  Path=████████████████████;  HttpOnly=;  Secure=; REVEL_SESSION=████████████████████;  Path=████████████████████;  Expires=████████████████████;  Max-Age=████████████████████;  HttpOnly=;  Secure=
+
+* TLS connection using TLS 1.3 / TLS_AES_128_GCM_SHA256
+* ALPN: h2 accepted
+* Server certificate:
+*  subject: CN=atcoder.jp
+*  start date: Fri Jun 30 00:00:00 UTC 2023
+*  expire date: Mon Jul 29 23:59:59 UTC 2024
+*  issuer: CN=Amazon RSA 2048 M01,O=Amazon,C=US
+*  TLS certificate verify ok.
+< HTTP/2.0 200 OK
+< Cache-Control: no-cache, no-store, must-revalidate, private
+< Content-Type: text/html; charset=utf-8
+< Date: Sat, 02 Sep 2023 12:06:21 GMT
+< Expires: Fri, 1 Jan 2010 00:00:00 GMT
+< Pragma: no-cache
+< Referrer-Policy: strict-origin-when-cross-origin
+< Server: nginx
+< Set-Cookie: language=; Path=/; Expires=Sat, 02 Sep 2023 12:06:21 GMT
+< Set-Cookie: language=████████████████████; Path=/; Domain=atcoder.jp; Expires=Thu, 31 Aug 2028 12:06:21 GMT
+< Set-Cookie: REVEL_FLASH=; Path=/; HttpOnly; Secure
+< Set-Cookie: REVEL_SESSION=████████████████████; Path=/; Expires=Thu, 29 Feb 2024 12:06:21 GMT; Max-Age=15552000; HttpOnly; Secure
+< Strict-Transport-Security: max-age=31536000
+< Vary: Accept-Encoding
+< Via: 1.1 6edfdc31da7f18a47c7703a5df6de3c6.cloudfront.net (CloudFront)
+< X-Amz-Cf-Id: dZn8-TV-aEAoQ4Hg_Ahq0H25UcSnli8ybIGTAR31E57asvcLKEUJdg==
+< X-Amz-Cf-Pop: NRT20-C4
+< X-Cache: Miss from cloudfront
+< X-Content-Type-Options: nosniff
+< X-Frame-Options: SAMEORIGIN
+< X-Xss-Protection: 1; mode=block
+
+* body is too long, skipping (contains more than 10000 bytes)
+* Request took 64.953408ms
+* Request at 2023-09-02 21:06:18.773068812 +0900 JST m=+6.648738515
+* Request to https://atcoder.jp/contests/abc318/submissions/me?lang=ja
+> GET /contests/abc318/submissions/me?lang=ja HTTP/1.1
+> Host: atcoder.jp
+> Cookie: REVEL_FLASH=;  Path=████████████████████;  HttpOnly=;  Secure=; REVEL_SESSION=████████████████████;  Path=████████████████████;  Expires=████████████████████;  Max-Age=████████████████████;  HttpOnly=;  Secure=
+
+* TLS connection using TLS 1.3 / TLS_AES_128_GCM_SHA256
+* ALPN: h2 accepted
+* Server certificate:
+*  subject: CN=atcoder.jp
+*  start date: Fri Jun 30 00:00:00 UTC 2023
+*  expire date: Mon Jul 29 23:59:59 UTC 2024
+*  issuer: CN=Amazon RSA 2048 M01,O=Amazon,C=US
+*  TLS certificate verify ok.
+< HTTP/2.0 200 OK
+< Cache-Control: no-cache, no-store, must-revalidate, private
+< Content-Type: text/html; charset=utf-8
+< Date: Sat, 02 Sep 2023 12:06:22 GMT
+< Expires: Fri, 1 Jan 2010 00:00:00 GMT
+< Pragma: no-cache
+< Referrer-Policy: strict-origin-when-cross-origin
+< Server: nginx
+< Set-Cookie: language=; Path=/; Expires=Sat, 02 Sep 2023 12:06:22 GMT
+< Set-Cookie: language=████████████████████; Path=/; Domain=atcoder.jp; Expires=Thu, 31 Aug 2028 12:06:22 GMT
+< Set-Cookie: REVEL_FLASH=; Path=/; HttpOnly; Secure
+< Set-Cookie: REVEL_SESSION=████████████████████; Path=/; Expires=Thu, 29 Feb 2024 12:06:22 GMT; Max-Age=15552000; HttpOnly; Secure
+< Strict-Transport-Security: max-age=31536000
+< Vary: Accept-Encoding
+< Via: 1.1 6edfdc31da7f18a47c7703a5df6de3c6.cloudfront.net (CloudFront)
+< X-Amz-Cf-Id: Jt3dLle_1_JqEdvYIGPf3_IGj-yitJAsYtxjqY780KP7qQZvtl3H0w==
+< X-Amz-Cf-Pop: NRT20-C4
+< X-Cache: Miss from cloudfront
+< X-Content-Type-Options: nosniff
+< X-Frame-Options: SAMEORIGIN
+< X-Xss-Protection: 1; mode=block
+
+* body is too long, skipping (contains more than 10000 bytes)
+* Request took 43.417724ms
+ [ A - Full Moon ]   WJ     5% [[32m>[0m                             ] (1/18) [0s:0s][0m                                                                               [ A - Full Moon ]   WJ     5% [[32m>[0m                             ] (1/18) [0s:0s][0m* Request at 2023-09-02 21:06:19.824468954 +0900 JST m=+7.700138683
+* Request to https://atcoder.jp/contests/abc318/submissions/me?lang=ja
+> GET /contests/abc318/submissions/me?lang=ja HTTP/1.1
+> Host: atcoder.jp
+> Cookie: REVEL_FLASH=;  Path=████████████████████;  HttpOnly=;  Secure=; REVEL_SESSION=████████████████████;  Path=████████████████████;  Expires=████████████████████;  Max-Age=████████████████████;  HttpOnly=;  Secure=
+
+* TLS connection using TLS 1.3 / TLS_AES_128_GCM_SHA256
+* ALPN: h2 accepted
+* Server certificate:
+*  subject: CN=atcoder.jp
+*  start date: Fri Jun 30 00:00:00 UTC 2023
+*  expire date: Mon Jul 29 23:59:59 UTC 2024
+*  issuer: CN=Amazon RSA 2048 M01,O=Amazon,C=US
+*  TLS certificate verify ok.
+< HTTP/2.0 200 OK
+< Cache-Control: no-cache, no-store, must-revalidate, private
+< Content-Type: text/html; charset=utf-8
+< Date: Sat, 02 Sep 2023 12:06:23 GMT
+< Expires: Fri, 1 Jan 2010 00:00:00 GMT
+< Pragma: no-cache
+< Referrer-Policy: strict-origin-when-cross-origin
+< Server: nginx
+< Set-Cookie: language=; Path=/; Expires=Sat, 02 Sep 2023 12:06:23 GMT
+< Set-Cookie: language=████████████████████; Path=/; Domain=atcoder.jp; Expires=Thu, 31 Aug 2028 12:06:23 GMT
+< Set-Cookie: REVEL_FLASH=; Path=/; HttpOnly; Secure
+< Set-Cookie: REVEL_SESSION=████████████████████; Path=/; Expires=Thu, 29 Feb 2024 12:06:23 GMT; Max-Age=15552000; HttpOnly; Secure
+< Strict-Transport-Security: max-age=31536000
+< Vary: Accept-Encoding
+< Via: 1.1 6edfdc31da7f18a47c7703a5df6de3c6.cloudfront.net (CloudFront)
+< X-Amz-Cf-Id: szHtm3TxhYEs0oAbpphzrQwD6T-hn6XcGiF_6GCJSoHrpmTFMq7gAw==
+< X-Amz-Cf-Pop: NRT20-C4
+< X-Cache: Miss from cloudfront
+< X-Content-Type-Options: nosniff
+< X-Frame-Options: SAMEORIGIN
+< X-Xss-Protection: 1; mode=block
+
+* body is too long, skipping (contains more than 10000 bytes)
+* Request took 23.314213ms
+                                                                               [ A - Full Moon ]   WJ    44% [[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m>[0m                 ] (8/18) [1s:1s][0m                                                                               [ A - Full Moon ]   WJ    44% [[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m>[0m                 ] (8/18) [1s:1s][0m* Request at 2023-09-02 21:06:20.849524106 +0900 JST m=+8.725193847
+* Request to https://atcoder.jp/contests/abc318/submissions/me?lang=ja
+> GET /contests/abc318/submissions/me?lang=ja HTTP/1.1
+> Host: atcoder.jp
+> Cookie: REVEL_FLASH=;  Path=████████████████████;  HttpOnly=;  Secure=; REVEL_SESSION=████████████████████;  Path=████████████████████;  Expires=████████████████████;  Max-Age=████████████████████;  HttpOnly=;  Secure=
+
+* TLS connection using TLS 1.3 / TLS_AES_128_GCM_SHA256
+* ALPN: h2 accepted
+* Server certificate:
+*  subject: CN=atcoder.jp
+*  start date: Fri Jun 30 00:00:00 UTC 2023
+*  expire date: Mon Jul 29 23:59:59 UTC 2024
+*  issuer: CN=Amazon RSA 2048 M01,O=Amazon,C=US
+*  TLS certificate verify ok.
+< HTTP/2.0 200 OK
+< Cache-Control: no-cache, no-store, must-revalidate, private
+< Content-Type: text/html; charset=utf-8
+< Date: Sat, 02 Sep 2023 12:06:24 GMT
+< Expires: Fri, 1 Jan 2010 00:00:00 GMT
+< Pragma: no-cache
+< Referrer-Policy: strict-origin-when-cross-origin
+< Server: nginx
+< Set-Cookie: language=; Path=/; Expires=Sat, 02 Sep 2023 12:06:24 GMT
+< Set-Cookie: language=████████████████████; Path=/; Domain=atcoder.jp; Expires=Thu, 31 Aug 2028 12:06:24 GMT
+< Set-Cookie: REVEL_FLASH=; Path=/; HttpOnly; Secure
+< Set-Cookie: REVEL_SESSION=████████████████████; Path=/; Expires=Thu, 29 Feb 2024 12:06:24 GMT; Max-Age=15552000; HttpOnly; Secure
+< Strict-Transport-Security: max-age=31536000
+< Vary: Accept-Encoding
+< Via: 1.1 6edfdc31da7f18a47c7703a5df6de3c6.cloudfront.net (CloudFront)
+< X-Amz-Cf-Id: Yq72gvOksVXHx8Nn977oZV0kqvhqTGEQ5iTr08htNQK-P_vQ2e-L9g==
+< X-Amz-Cf-Pop: NRT20-C4
+< X-Cache: Miss from cloudfront
+< X-Content-Type-Options: nosniff
+< X-Frame-Options: SAMEORIGIN
+< X-Xss-Protection: 1; mode=block
+
+* body is too long, skipping (contains more than 10000 bytes)
+* Request took 44.876289ms
+                                                                               [ A - Full Moon ]   AC    44% [[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m>[0m                 ] (8/18) [2s:1s][0m                                                                               [ A - Full Moon ]   AC   100% [[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m] (18/18)[0m
+* Request at 2023-09-02 21:06:20.895043182 +0900 JST m=+8.770712871
+* Request to https://atcoder.jp/contests/abc318/submissions/45135305?lang=ja
+> GET /contests/abc318/submissions/45135305?lang=ja HTTP/1.1
+> Host: atcoder.jp
+> Cookie: REVEL_FLASH=;  Path=████████████████████;  HttpOnly=;  Secure=; REVEL_SESSION=████████████████████;  Path=████████████████████;  Expires=████████████████████;  Max-Age=████████████████████;  HttpOnly=;  Secure=
+
+* TLS connection using TLS 1.3 / TLS_AES_128_GCM_SHA256
+* ALPN: h2 accepted
+* Server certificate:
+*  subject: CN=atcoder.jp
+*  start date: Fri Jun 30 00:00:00 UTC 2023
+*  expire date: Mon Jul 29 23:59:59 UTC 2024
+*  issuer: CN=Amazon RSA 2048 M01,O=Amazon,C=US
+*  TLS certificate verify ok.
+< HTTP/2.0 200 OK
+< Cache-Control: no-cache, no-store, must-revalidate, private
+< Content-Type: text/html; charset=utf-8
+< Date: Sat, 02 Sep 2023 12:06:24 GMT
+< Expires: Fri, 1 Jan 2010 00:00:00 GMT
+< Pragma: no-cache
+< Referrer-Policy: strict-origin-when-cross-origin
+< Server: nginx
+< Set-Cookie: language=; Path=/; Expires=Sat, 02 Sep 2023 12:06:24 GMT
+< Set-Cookie: language=████████████████████; Path=/; Domain=atcoder.jp; Expires=Thu, 31 Aug 2028 12:06:24 GMT
+< Set-Cookie: REVEL_FLASH=; Path=/; HttpOnly; Secure
+< Set-Cookie: REVEL_SESSION=████████████████████; Path=/; Expires=Thu, 29 Feb 2024 12:06:24 GMT; Max-Age=15552000; HttpOnly; Secure
+< Strict-Transport-Security: max-age=31536000
+< Vary: Accept-Encoding
+< Via: 1.1 6edfdc31da7f18a47c7703a5df6de3c6.cloudfront.net (CloudFront)
+< X-Amz-Cf-Id: uVB3kSDMfJKwLot55bZN10wbds2h4itiuTLRYCVla_mvd_b4_HssZg==
+< X-Amz-Cf-Pop: NRT20-C4
+< X-Cache: Miss from cloudfront
+< X-Content-Type-Options: nosniff
+< X-Frame-Options: SAMEORIGIN
+< X-Xss-Protection: 1; mode=block
+
+* body is too long, skipping (contains more than 10000 bytes)
+* Request took 39.878696ms
+
+Problem     A - Full Moon
+Date        2023-09-02 21:06:16+0900
+Memory      81148 KB
+Exec time   61 ms
+Status       AC  x 18

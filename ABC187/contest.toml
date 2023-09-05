@@ -1,0 +1,34 @@
+[config]
+buildcmd = ''
+filename = 'main.py'
+lang = '4047'
+runcmd = 'python3 {{ .file }}'
+
+[contest]
+name = 'abc187'
+url = 'https://atcoder.jp/contests/abc187?lang=ja'
+
+[tasks]
+[tasks.a]
+id = ''
+path = '/home/kshino/workspace/compe_prog_new/ABC187/a/main.py'
+
+[tasks.b]
+id = ''
+path = '/home/kshino/workspace/compe_prog_new/ABC187/b/main.py'
+
+[tasks.c]
+id = 'abc187_c'
+path = '/home/kshino/workspace/compe_prog_new/ABC187/c/main.py'
+
+[tasks.d]
+id = 'abc187_d'
+path = '/home/kshino/workspace/compe_prog_new/ABC187/d/main.py'
+
+[tasks.e]
+id = ''
+path = '/home/kshino/workspace/compe_prog_new/ABC187/e/main.py'
+
+[tasks.f]
+id = ''
+path = '/home/kshino/workspace/compe_prog_new/ABC187/f/main.py'
