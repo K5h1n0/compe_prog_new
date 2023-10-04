@@ -1,0 +1,34 @@
+[config]
+buildcmd = ''
+filename = 'main.py'
+lang = '5078'
+runcmd = 'python3 {{ .file }}'
+
+[contest]
+name = 'abc168'
+url = 'https://atcoder.jp/contests/abc168?lang=ja'
+
+[tasks]
+[tasks.a]
+id = 'abc168_a'
+path = '/home/kshino/workspace/compe_prog_new/VirtualContest/nanika20231003day/ABC168/a/main.py'
+
+[tasks.b]
+id = 'abc168_b'
+path = '/home/kshino/workspace/compe_prog_new/VirtualContest/nanika20231003day/ABC168/b/main.py'
+
+[tasks.c]
+id = 'abc168_c'
+path = '/home/kshino/workspace/compe_prog_new/VirtualContest/nanika20231003day/ABC168/c/main.py'
+
+[tasks.d]
+id = ''
+path = '/home/kshino/workspace/compe_prog_new/VirtualContest/nanika20231003day/ABC168/d/main.py'
+
+[tasks.e]
+id = ''
+path = '/home/kshino/workspace/compe_prog_new/VirtualContest/nanika20231003day/ABC168/e/main.py'
+
+[tasks.f]
+id = ''
+path = '/home/kshino/workspace/compe_prog_new/VirtualContest/nanika20231003day/ABC168/f/main.py'

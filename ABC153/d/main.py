@@ -1,14 +1,6 @@
-n, x, y = map(int, input().split())
-
-
-def red(x):
-    if x == 1:
-        return 1
-    else:
-        return red(x-1) + blue(n) * x
-
-
-def blue(x):
-    if x == 1:
-        
-    return
+# 紙に樹形図を書いた
+h = int(input())
+for i in range(1, 41):
+    if 2**(i-1) <= h < 2**i:
+        print((2**i)-1)
+        exit()

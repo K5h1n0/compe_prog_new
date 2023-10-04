@@ -1,0 +1,42 @@
+[config]
+buildcmd = ''
+filename = 'main.py'
+lang = '5078'
+runcmd = 'python3 {{ .file }}'
+
+[contest]
+name = 'abc214'
+url = 'https://atcoder.jp/contests/abc214?lang=ja'
+
+[tasks]
+[tasks.a]
+id = 'abc214_a'
+path = '/home/kshino/workspace/compe_prog_new/VirtualContest/nanika20231004night/ABC214/a/main.py'
+
+[tasks.b]
+id = 'abc214_b'
+path = '/home/kshino/workspace/compe_prog_new/VirtualContest/nanika20231004night/ABC214/b/main.py'
+
+[tasks.c]
+id = 'abc214_c'
+path = '/home/kshino/workspace/compe_prog_new/VirtualContest/nanika20231004night/ABC214/c/main.py'
+
+[tasks.d]
+id = ''
+path = '/home/kshino/workspace/compe_prog_new/VirtualContest/nanika20231004night/ABC214/d/main.py'
+
+[tasks.e]
+id = ''
+path = '/home/kshino/workspace/compe_prog_new/VirtualContest/nanika20231004night/ABC214/e/main.py'
+
+[tasks.f]
+id = ''
+path = '/home/kshino/workspace/compe_prog_new/VirtualContest/nanika20231004night/ABC214/f/main.py'
+
+[tasks.g]
+id = ''
+path = '/home/kshino/workspace/compe_prog_new/VirtualContest/nanika20231004night/ABC214/g/main.py'
+
+[tasks.h]
+id = ''
+path = '/home/kshino/workspace/compe_prog_new/VirtualContest/nanika20231004night/ABC214/h/main.py'

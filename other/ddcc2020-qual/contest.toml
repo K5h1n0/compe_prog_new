@@ -1,0 +1,34 @@
+[config]
+buildcmd = ''
+filename = 'main.py'
+lang = '5078'
+runcmd = 'python3 {{ .file }}'
+
+[contest]
+name = 'ddcc2020-qual'
+url = 'https://atcoder.jp/contests/ddcc2020-qual?lang=ja'
+
+[tasks]
+[tasks.a]
+id = ''
+path = '/home/kshino/workspace/compe_prog_new/other/ddcc2020-qual/a/main.py'
+
+[tasks.b]
+id = 'ddcc2020_qual_b'
+path = '/home/kshino/workspace/compe_prog_new/other/ddcc2020-qual/b/main.py'
+
+[tasks.c]
+id = ''
+path = '/home/kshino/workspace/compe_prog_new/other/ddcc2020-qual/c/main.py'
+
+[tasks.d]
+id = ''
+path = '/home/kshino/workspace/compe_prog_new/other/ddcc2020-qual/d/main.py'
+
+[tasks.e]
+id = ''
+path = '/home/kshino/workspace/compe_prog_new/other/ddcc2020-qual/e/main.py'
+
+[tasks.f]
+id = ''
+path = '/home/kshino/workspace/compe_prog_new/other/ddcc2020-qual/f/main.py'
