@@ -1,0 +1,34 @@
+[config]
+buildcmd = ''
+filename = 'main.py'
+lang = '5078'
+runcmd = 'python3 {{ .file }}'
+
+[contest]
+name = 'agc002'
+url = 'https://atcoder.jp/contests/agc002?lang=ja'
+
+[tasks]
+[tasks.a]
+id = 'agc002_a'
+path = '/home/kshino/workspace/compe_prog_new/AGC/AGC002/a/main.py'
+
+[tasks.b]
+id = 'agc002_b'
+path = '/home/kshino/workspace/compe_prog_new/AGC/AGC002/b/main.py'
+
+[tasks.c]
+id = 'agc002_c'
+path = '/home/kshino/workspace/compe_prog_new/AGC/AGC002/c/main.py'
+
+[tasks.d]
+id = 'agc002_d'
+path = '/home/kshino/workspace/compe_prog_new/AGC/AGC002/d/main.py'
+
+[tasks.e]
+id = 'agc002_e'
+path = '/home/kshino/workspace/compe_prog_new/AGC/AGC002/e/main.py'
+
+[tasks.f]
+id = 'agc002_f'
+path = '/home/kshino/workspace/compe_prog_new/AGC/AGC002/f/main.py'

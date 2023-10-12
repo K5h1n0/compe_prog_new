@@ -14,7 +14,7 @@ id = ''
 path = '/home/kshino/workspace/compe_prog_new/ABC187/a/main.py'
 
 [tasks.b]
-id = ''
+id = 'abc187_b'
 path = '/home/kshino/workspace/compe_prog_new/ABC187/b/main.py'
 
 [tasks.c]

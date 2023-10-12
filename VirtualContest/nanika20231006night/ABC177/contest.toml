@@ -1,0 +1,34 @@
+[config]
+buildcmd = ''
+filename = 'main.py'
+lang = '5078'
+runcmd = 'python3 {{ .file }}'
+
+[contest]
+name = 'abc177'
+url = 'https://atcoder.jp/contests/abc177?lang=ja'
+
+[tasks]
+[tasks.a]
+id = 'abc177_a'
+path = '/home/kshino/workspace/compe_prog_new/VirtualContest/nanika20231006night/ABC177/a/main.py'
+
+[tasks.b]
+id = 'abc177_b'
+path = '/home/kshino/workspace/compe_prog_new/VirtualContest/nanika20231006night/ABC177/b/main.py'
+
+[tasks.c]
+id = 'abc177_c'
+path = '/home/kshino/workspace/compe_prog_new/VirtualContest/nanika20231006night/ABC177/c/main.py'
+
+[tasks.d]
+id = 'abc177_d'
+path = '/home/kshino/workspace/compe_prog_new/VirtualContest/nanika20231006night/ABC177/d/main.py'
+
+[tasks.e]
+id = ''
+path = '/home/kshino/workspace/compe_prog_new/VirtualContest/nanika20231006night/ABC177/e/main.py'
+
+[tasks.f]
+id = ''
+path = '/home/kshino/workspace/compe_prog_new/VirtualContest/nanika20231006night/ABC177/f/main.py'

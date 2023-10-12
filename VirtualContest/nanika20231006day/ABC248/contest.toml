@@ -1,0 +1,42 @@
+[config]
+buildcmd = ''
+filename = 'main.py'
+lang = '5078'
+runcmd = 'python3 {{ .file }}'
+
+[contest]
+name = 'abc248'
+url = 'https://atcoder.jp/contests/abc248?lang=ja'
+
+[tasks]
+[tasks.a]
+id = 'abc248_a'
+path = '/home/kshino/workspace/compe_prog_new/VirtualContest/nanika20231006day/ABC248/a/main.py'
+
+[tasks.b]
+id = 'abc248_b'
+path = '/home/kshino/workspace/compe_prog_new/VirtualContest/nanika20231006day/ABC248/b/main.py'
+
+[tasks.c]
+id = ''
+path = '/home/kshino/workspace/compe_prog_new/VirtualContest/nanika20231006day/ABC248/c/main.py'
+
+[tasks.d]
+id = 'abc248_d'
+path = '/home/kshino/workspace/compe_prog_new/VirtualContest/nanika20231006day/ABC248/d/main.py'
+
+[tasks.e]
+id = ''
+path = '/home/kshino/workspace/compe_prog_new/VirtualContest/nanika20231006day/ABC248/e/main.py'
+
+[tasks.ex]
+id = ''
+path = '/home/kshino/workspace/compe_prog_new/VirtualContest/nanika20231006day/ABC248/ex/main.py'
+
+[tasks.f]
+id = ''
+path = '/home/kshino/workspace/compe_prog_new/VirtualContest/nanika20231006day/ABC248/f/main.py'
+
+[tasks.g]
+id = ''
+path = '/home/kshino/workspace/compe_prog_new/VirtualContest/nanika20231006day/ABC248/g/main.py'
