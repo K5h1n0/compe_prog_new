@@ -1,0 +1,34 @@
+[config]
+buildcmd = ''
+filename = 'main.py'
+lang = '5078'
+runcmd = 'python3 {{ .file }}'
+
+[contest]
+name = 'abc129'
+url = 'https://atcoder.jp/contests/abc129?lang=ja'
+
+[tasks]
+[tasks.a]
+id = 'abc129_a'
+path = '/home/kshino/workspace/compe_prog_new/VirtualContest/nanika20231013day/ABC129/a/main.py'
+
+[tasks.b]
+id = 'abc129_b'
+path = '/home/kshino/workspace/compe_prog_new/VirtualContest/nanika20231013day/ABC129/b/main.py'
+
+[tasks.c]
+id = 'abc129_c'
+path = '/home/kshino/workspace/compe_prog_new/VirtualContest/nanika20231013day/ABC129/c/main.py'
+
+[tasks.d]
+id = ''
+path = '/home/kshino/workspace/compe_prog_new/VirtualContest/nanika20231013day/ABC129/d/main.py'
+
+[tasks.e]
+id = ''
+path = '/home/kshino/workspace/compe_prog_new/VirtualContest/nanika20231013day/ABC129/e/main.py'
+
+[tasks.f]
+id = ''
+path = '/home/kshino/workspace/compe_prog_new/VirtualContest/nanika20231013day/ABC129/f/main.py'
