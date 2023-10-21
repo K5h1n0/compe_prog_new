@@ -1,0 +1,34 @@
+[config]
+buildcmd = ''
+filename = 'main.py'
+lang = '5078'
+runcmd = 'python3 {{ .file }}'
+
+[contest]
+name = 'abc152'
+url = 'https://atcoder.jp/contests/abc152?lang=ja'
+
+[tasks]
+[tasks.a]
+id = 'abc152_a'
+path = '/home/kshino/workspace/compe_prog_new/VirtualContest/nanika20231018day/ABC152/a/main.py'
+
+[tasks.b]
+id = 'abc152_b'
+path = '/home/kshino/workspace/compe_prog_new/VirtualContest/nanika20231018day/ABC152/b/main.py'
+
+[tasks.c]
+id = 'abc152_c'
+path = '/home/kshino/workspace/compe_prog_new/VirtualContest/nanika20231018day/ABC152/c/main.py'
+
+[tasks.d]
+id = ''
+path = '/home/kshino/workspace/compe_prog_new/VirtualContest/nanika20231018day/ABC152/d/main.py'
+
+[tasks.e]
+id = ''
+path = '/home/kshino/workspace/compe_prog_new/VirtualContest/nanika20231018day/ABC152/e/main.py'
+
+[tasks.f]
+id = ''
+path = '/home/kshino/workspace/compe_prog_new/VirtualContest/nanika20231018day/ABC152/f/main.py'
