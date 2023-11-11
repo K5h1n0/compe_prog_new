@@ -1,0 +1,46 @@
+[config]
+buildcmd = ''
+filename = 'main.py'
+lang = '5078'
+runcmd = 'python3 {{ .file }}'
+
+[contest]
+name = 'adt_all_20231025_2'
+url = 'https://atcoder.jp/contests/adt_all_20231025_2?lang=ja'
+
+[tasks]
+[tasks.'a (過去のabcのa問題から出題)']
+id = ''
+path = '/home/kshino/workspace/compe_prog_new/VirtualContest/adt_all_20231025_2/a (過去のabcのa問題から出題)/main.py'
+
+[tasks.'b (過去のabcのa問題から出題)']
+id = ''
+path = '/home/kshino/workspace/compe_prog_new/VirtualContest/adt_all_20231025_2/b (過去のabcのa問題から出題)/main.py'
+
+[tasks.'c (過去のabcのb問題から出題)']
+id = ''
+path = '/home/kshino/workspace/compe_prog_new/VirtualContest/adt_all_20231025_2/c (過去のabcのb問題から出題)/main.py'
+
+[tasks.'d (過去のabcのb問題から出題)']
+id = ''
+path = '/home/kshino/workspace/compe_prog_new/VirtualContest/adt_all_20231025_2/d (過去のabcのb問題から出題)/main.py'
+
+[tasks.'e (過去のabcのc問題から出題)']
+id = ''
+path = '/home/kshino/workspace/compe_prog_new/VirtualContest/adt_all_20231025_2/e (過去のabcのc問題から出題)/main.py'
+
+[tasks.'f (過去のabcのc問題から出題)']
+id = ''
+path = '/home/kshino/workspace/compe_prog_new/VirtualContest/adt_all_20231025_2/f (過去のabcのc問題から出題)/main.py'
+
+[tasks.'g (過去のabcのd問題から出題)']
+id = ''
+path = '/home/kshino/workspace/compe_prog_new/VirtualContest/adt_all_20231025_2/g (過去のabcのd問題から出題)/main.py'
+
+[tasks.'h (過去のabcのe問題から出題)']
+id = ''
+path = '/home/kshino/workspace/compe_prog_new/VirtualContest/adt_all_20231025_2/h (過去のabcのe問題から出題)/main.py'
+
+[tasks.'i (過去のabcのf問題から出題)']
+id = ''
+path = '/home/kshino/workspace/compe_prog_new/VirtualContest/adt_all_20231025_2/i (過去のabcのf問題から出題)/main.py'
