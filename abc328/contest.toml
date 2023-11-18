@@ -10,19 +10,19 @@ url = 'https://atcoder.jp/contests/abc328?lang=ja'
 
 [tasks]
 [tasks.a]
-id = ''
+id = 'abc328_a'
 path = '/home/kshino/workspace/compe_prog_new/abc328/a/main.py'
 
 [tasks.b]
-id = ''
+id = 'abc328_b'
 path = '/home/kshino/workspace/compe_prog_new/abc328/b/main.py'
 
 [tasks.c]
-id = ''
+id = 'abc328_c'
 path = '/home/kshino/workspace/compe_prog_new/abc328/c/main.py'
 
 [tasks.d]
-id = ''
+id = 'abc328_d'
 path = '/home/kshino/workspace/compe_prog_new/abc328/d/main.py'
 
 [tasks.e]
