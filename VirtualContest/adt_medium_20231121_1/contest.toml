@@ -1,0 +1,30 @@
+[config]
+buildcmd = ''
+filename = 'main.py'
+lang = '5078'
+runcmd = 'python3 {{ .file }}'
+
+[contest]
+name = 'adt_medium_20231121_1'
+url = 'https://atcoder.jp/contests/adt_medium_20231121_1?lang=ja'
+
+[tasks]
+[tasks.'c (過去のabcのb問題から出題)']
+id = ''
+path = '/home/kshino/workspace/compe_prog_new/VirtualContest/adt_medium_20231121_1/c (過去のabcのb問題から出題)/main.py'
+
+[tasks.'d (過去のabcのb問題から出題)']
+id = ''
+path = '/home/kshino/workspace/compe_prog_new/VirtualContest/adt_medium_20231121_1/d (過去のabcのb問題から出題)/main.py'
+
+[tasks.'e (過去のabcのc問題から出題)']
+id = ''
+path = '/home/kshino/workspace/compe_prog_new/VirtualContest/adt_medium_20231121_1/e (過去のabcのc問題から出題)/main.py'
+
+[tasks.'f (過去のabcのc問題から出題)']
+id = ''
+path = '/home/kshino/workspace/compe_prog_new/VirtualContest/adt_medium_20231121_1/f (過去のabcのc問題から出題)/main.py'
+
+[tasks.'g (過去のabcのd問題から出題)']
+id = ''
+path = '/home/kshino/workspace/compe_prog_new/VirtualContest/adt_medium_20231121_1/g (過去のabcのd問題から出題)/main.py'
