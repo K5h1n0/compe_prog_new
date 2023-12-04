@@ -18,7 +18,7 @@ id = ''
 path = '/home/kshino/workspace/compe_prog_new/ABC250/b/main.py'
 
 [tasks.c]
-id = ''
+id = 'abc250_c'
 path = '/home/kshino/workspace/compe_prog_new/ABC250/c/main.py'
 
 [tasks.d]
@@ -40,5 +40,3 @@ path = '/home/kshino/workspace/compe_prog_new/ABC250/f/main.py'
 [tasks.g]
 id = ''
 path = '/home/kshino/workspace/compe_prog_new/ABC250/g/main.py'
-
-

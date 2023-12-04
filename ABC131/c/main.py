@@ -1,12 +1,9 @@
+import math
+
 a,b,c,d = map(int,input().split())
 
-def gcd(x,y):
-    if y == 0:
-        return x
-    else:
-        return gcd(y,x%y)
+def calc(s,n,m):
+    nm = n*m // math.gcd(n,m)
+    return s - s//n - s//m + s//nm
 
-def lcm(x,y):
-    return x*y//gcd(x,y)
-
-print((b-(b//c + b//d - b//lcm(c,d)))-(a-(a//c + a//d - a//lcm(c,d))))
+print(calc(b,c,d)-calc(a-1,c,d))
