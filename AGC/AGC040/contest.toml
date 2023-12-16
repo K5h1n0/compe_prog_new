@@ -1,0 +1,34 @@
+[config]
+buildcmd = ''
+filename = 'main.py'
+lang = '5078'
+runcmd = 'python3 {{ .file }}'
+
+[contest]
+name = 'agc040'
+url = 'https://atcoder.jp/contests/agc040?lang=ja'
+
+[tasks]
+[tasks.a]
+id = 'agc040_a'
+path = '/home/kshino/workspace/compe_prog_new/AGC/AGC040/a/main.py'
+
+[tasks.b]
+id = 'agc040_b'
+path = '/home/kshino/workspace/compe_prog_new/AGC/AGC040/b/main.py'
+
+[tasks.c]
+id = 'agc040_c'
+path = '/home/kshino/workspace/compe_prog_new/AGC/AGC040/c/main.py'
+
+[tasks.d]
+id = 'agc040_d'
+path = '/home/kshino/workspace/compe_prog_new/AGC/AGC040/d/main.py'
+
+[tasks.e]
+id = 'agc040_e'
+path = '/home/kshino/workspace/compe_prog_new/AGC/AGC040/e/main.py'
+
+[tasks.f]
+id = 'agc040_f'
+path = '/home/kshino/workspace/compe_prog_new/AGC/AGC040/f/main.py'
