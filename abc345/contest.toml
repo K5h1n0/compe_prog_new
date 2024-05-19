@@ -1,0 +1,38 @@
+[config]
+buildcmd = ''
+filename = 'main.py'
+lang = '5078'
+runcmd = 'python3 {{ .file }}'
+
+[contest]
+name = 'abc345'
+url = 'https://atcoder.jp/contests/abc345?lang=ja'
+
+[tasks]
+[tasks.a]
+id = 'abc345_a'
+path = '/home/kshino/workspace/compe_prog_new/abc345/a/main.py'
+
+[tasks.b]
+id = 'abc345_b'
+path = '/home/kshino/workspace/compe_prog_new/abc345/b/main.py'
+
+[tasks.c]
+id = 'abc345_c'
+path = '/home/kshino/workspace/compe_prog_new/abc345/c/main.py'
+
+[tasks.d]
+id = 'abc345_d'
+path = '/home/kshino/workspace/compe_prog_new/abc345/d/main.py'
+
+[tasks.e]
+id = ''
+path = '/home/kshino/workspace/compe_prog_new/abc345/e/main.py'
+
+[tasks.f]
+id = ''
+path = '/home/kshino/workspace/compe_prog_new/abc345/f/main.py'
+
+[tasks.g]
+id = ''
+path = '/home/kshino/workspace/compe_prog_new/abc345/g/main.py'
